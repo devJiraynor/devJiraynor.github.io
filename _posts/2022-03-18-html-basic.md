@@ -19,3 +19,15 @@ HTML 기본 예제
 HTML 문서 자체는 **<html>** 로 시작하여 **</html>** 로 끝납니다.
 
 HTML 문서의 표시 부분은 **<body>** 와 **</body>** 사이입니다.
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>글머리입니다.</h1>
+<p>문단입니다.</p>
+
+</body>
+</html>
+```
