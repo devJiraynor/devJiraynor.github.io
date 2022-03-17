@@ -18,7 +18,8 @@ tags: [html5, basic]
 HTML 문서 자체는 **<html>** 로 시작하여 **</html>** 로 끝납니다.
 
 HTML 문서의 표시 부분은 **<body>** 와 **</body>** 사이입니다.
-
+   
+###### 예제 1   
 ```html
 <!DOCTYPE html>
 <html>
