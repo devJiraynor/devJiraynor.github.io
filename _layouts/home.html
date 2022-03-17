@@ -35,12 +35,12 @@ layout: page
     {% endif %}
 
     <a href="{{ post.url | absolute_url }}">
-      <h3 class="post-title">{{ post.title | strip_html }}</h3>
+      <h5 class="post-title">{{ post.title | strip_html }}</h5>
 
       {% if post.subtitle %}
-        <h4 class="post-subtitle">
+        <p class="post-subtitle">
         {{ post.subtitle | strip_html }}
-        </h4>
+        </p>
       {% endif %}
     </a>
 
