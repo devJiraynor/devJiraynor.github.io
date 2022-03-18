@@ -52,3 +52,26 @@ tags: [html5, basic]
 {: .box-note}
 **Tip:** 대부분의 경우 상대 URL을 사용하는 것이 가장 좋습니다. 도메인을 변경해도 끊어지지 않습니다.   
    
+## width와 height 속성   
+   
+```<img>``` 태그에는 이미지의 폭과 높이(픽셀 단위)를 지정하는 ```width``` 와 ```height``` 속성도 포함되어 있어야 합니다.   
+   
+###### 예제3   
+   
+```html
+<img src="html_thumb.png" width="300" height="300">
+```   
+   
+## alt 속성   
+   
+```<img>``` 태그의 필수 ```alt``` 속성은 어떤 이유로 이미지를 표시할 수 없는 경우 이미지의 대체 텍스트를 지정합니다. 이는 접속이 느리거나 ```src``` 속성에 오류가 있거나 사용자가 화면 리더를 사용하는 경우에 발생할 수 있습니다.   
+   
+###### 예제4   
+   
+```html
+<img src="html_thumb.png" alt="html 섬네일">
+```   
+```html
+<img src="html_thumb.jpg" alt="html 섬네일">
+```   
+   
