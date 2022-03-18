@@ -851,7 +851,6 @@ code {
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
 }
 
 pre code {
@@ -865,6 +864,7 @@ pre {
   line-height: 1.5em;
   border-radius: 0.25rem;
   padding: 0.59375rem;
+  margin-bottom: 0.5rem;
 }
 .highlight pre {
   border: none;
