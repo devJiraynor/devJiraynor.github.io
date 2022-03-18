@@ -851,6 +851,7 @@ code {
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 pre code {
