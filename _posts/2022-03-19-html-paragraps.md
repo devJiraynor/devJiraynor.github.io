@@ -44,9 +44,26 @@ HTML에서는 HTML 코드에 공백이나 행을 추가하여 표시를 변경�
 </p>
 
 <p>
-이 단락은      소스코드에 
-많은 행이      포함되어 있습니다.
+이  단락은 소스코드에 
+많은 행이 포함되어  있습니다.
 브라우저는 
 무시합니다.
 </p>
+```
+
+## HTML Horizontal Rules
+
+```<hr>``` 태그는 HTML 페이지의 주제 구분을 정의하며, 대부분의 경우 수평 규칙으로 표시됩니다.
+
+```<hr>``` 요소는 HTML 페이지에서 콘텐츠를 구분(또는 변경 정의)하기 위해 사용됩니다.
+
+###### 예제 3
+
+```html
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
 ```
