@@ -69,9 +69,46 @@ tags: [html5, basic]
 ###### 예제4   
    
 ```html
-<img src="html_thumb.png" alt="html 섬네일">
+<img src="html_thumb.png" alt="html 썸네일">
 ```   
 ```html
-<img src="html_thumb.jpg" alt="html 섬네일">
+<img src="html_thumb.jpg" alt="html 썸네일">
 ```   
    
+## style 속성   
+   
+```style``` 속성은 색상, 글꼴, 크기 등과 같은 스타일을 요소에 추가하는 데 사용됩니다.   
+   
+###### 예제5   
+
+```html
+<p style="color:red;">빨간색 문단</p>
+```   
+   
+## lang 속성   
+   
+웹 페이지의 언어를 선언하려면 항상 ```<html>``` 태그 안에 ```lang``` 속성을 포함해야 합니다. 이것은 검색 엔진과 브라우저를 지원하기 위한 것입니다.   
+
+다음 예제에서는 언어를 한글로 지정합니다.   
+   
+```html
+<!DOCTYPE html>
+<html lang="ko">
+<body>
+...
+</body>
+</html>
+```   
+   
+국가 코드를 ```lang``` 속성의 언어 코드에 추가할 수도 있습니다. 따라서 처음 두 문자는 HTML 페이지의 언어를 정의하고 마지막 두 문자는 국가를 정의합니다.   
+   
+다음 예제에서는 한글을 언어, 대한민국을 국가로 지정하고 있습니다.   
+
+```html
+<!DOCTYPE html>
+<html lang="ko-KR">
+<body>
+...
+</body>
+</html>
+```   
