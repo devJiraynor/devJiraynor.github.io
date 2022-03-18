@@ -61,3 +61,34 @@ HTML 헤더는 **<h1>** ~ **<h6>** 태그로 정의됩니다.
 <h3>글머리 3</h3>
 ```   
    
+## HTML 문단   
+   
+HTML 문단은 **<p>** 태그로 정의됩니다.
+   
+###### 예제 4    
+```html
+<p>첫번째 문단입니다.</p>
+<p>다른 문단입니다.</p>
+```   
+   
+## HTML 링크   
+   
+HTML 링크는 **<a>** 태그로 정의됩니다.   
+   
+###### 예제 5
+```html
+<a href="https://devJiraynor.github.io">이것은 링크입니다.</a>
+```   
+   
+링크의 수신처는 **href** 속성으로 지정됩니다.   
+   
+## HTML 이미지   
+   
+HTML 이미지는 **<img>** 태그로 정의됩니다.
+
+소스 파일( **src** ), 대체 텍스트( **alt** ), **width** 및 **height** 가 속성으로 제공됩니다.   
+   
+###### 예제 6   
+```html
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+```   
