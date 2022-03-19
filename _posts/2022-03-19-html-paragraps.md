@@ -76,8 +76,44 @@ HTML ```<br>``` 요소는 줄 바꿈을 정의합니다.
 
 새 단락을 시작하지 않고 줄 바꿈(새 줄 바꿈)을 원하는 경우 ```<br>``` 을 사용합니다.
 
+###### 예제 4
+
 ```html
 <p>This is<br>a paragraph<br>with line breaks.</p>
 ```
 
 ```<br>``` 태그는 빈 태그입니다.즉, 엔드 태그는 없습니다.
+
+## 아래 시의 문제점
+
+이 시는 한 줄에 표시됩니다.
+
+```html
+<p>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</p>
+```
+
+## 위 문제점의 솔루션 - HTML <pre> 요소
+
+HTML ```<pre>``` 요소는 미리 포맷된 텍스트를 정의합니다.
+
+```<pre>``` 요소 내부의 텍스트는 고정 너비 글꼴(통상은 Courier)로 표시되며 공백과 줄 바꿈이 모두 유지됩니다.
+
+```html
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+```
