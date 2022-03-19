@@ -20,7 +20,7 @@ HTML ```style``` 속성 구문은 다음과 같습니다.
 <tagname style="property:value;">
 ```
 
-**property**는 CSS 속성입니다. *value*는 CSS 값입니다.
+**property**는 CSS 속성입니다. **value**는 CSS 값입니다.
 
 ## 배경 색
 
