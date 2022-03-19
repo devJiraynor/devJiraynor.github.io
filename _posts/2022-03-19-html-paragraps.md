@@ -79,7 +79,7 @@ HTML ```<br>``` 요소는 줄 바꿈을 정의합니다.
 ###### 예제 4
 
 ```html
-<p>This is<br>a paragraph<br>with line breaks.</p>
+<p>이것은<br>줄 바꿈을 포함한<br>단락입니다.</p>
 ```
 
 ```<br>``` 태그는 빈 태그입니다.즉, 엔드 태그는 없습니다.
@@ -90,13 +90,17 @@ HTML ```<br>``` 요소는 줄 바꿈을 정의합니다.
 
 ```html
 <p>
-  My Bonnie lies over the ocean.
+  나보기가 역겨워
 
-  My Bonnie lies over the sea.
+  가실 때에는
 
-  My Bonnie lies over the ocean.
+  말없이 고이 보내 드리오리다
 
-  Oh, bring back my Bonnie to me.
+  영변의 약산
+   
+  진달래꽃
+   
+  아름 따다 가실 길에 뿌리오리다
 </p>
 ```
 
@@ -108,12 +112,16 @@ HTML ```<pre>``` 요소는 미리 포맷된 텍스트를 정의합니다.
 
 ```html
 <pre>
-  My Bonnie lies over the ocean.
+  나보기가 역겨워
 
-  My Bonnie lies over the sea.
+  가실 때에는
 
-  My Bonnie lies over the ocean.
+  말없이 고이 보내 드리오리다
 
-  Oh, bring back my Bonnie to me.
+  영변의 약산
+   
+  진달래꽃
+   
+  아름 따다 가실 길에 뿌리오리다
 </pre>
 ```
