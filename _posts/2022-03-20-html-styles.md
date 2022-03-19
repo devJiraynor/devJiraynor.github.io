@@ -94,9 +94,9 @@ CSS ```text-align``` 속성은 HTML 요소의 수평 텍스트 정렬을 정의�
 
 ## Summary
 
-+HTML 요소의 스타일 지정에 ```style``` 속성 사용
-+배경색으로 ```background-color``` 사용
-+텍스트 색상에 ```color``` 사용
-+텍스트 글꼴에 ```font-family``` 사용
-+텍스트 크기에 ```font-size``` 사용
-+텍스트 정렬에 ```text-align``` 사용
++ HTML 요소의 스타일 지정에 ```style``` 속성 사용   
++ 배경색으로 ```background-color``` 사용   
++ 텍스트 색상에 ```color``` 사용   
++ 텍스트 글꼴에 ```font-family``` 사용   
++ 텍스트 크기에 ```font-size``` 사용   
++ 텍스트 정렬에 ```text-align``` 사용   
