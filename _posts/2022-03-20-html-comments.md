@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 9.주석(Comments)
+title: HTML 09.주석(Comments)
 subtitle: HTML 주석(Comments)은 브라우저에 표시되지 않지만 HTML 소스 코드를 문서화하는 데 도움이 됩니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
