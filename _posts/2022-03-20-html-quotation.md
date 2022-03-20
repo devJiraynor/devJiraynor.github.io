@@ -91,7 +91,7 @@ HTML ```<cite>``` 태그는 창작물(책, 시, 노래, 영화, 그림, 조각 �
 <p>몽크의 <cite>절규</cite>. 1893년 작.</p>
 ```
   
-## HTML 역정렬 ```bdo```
+## HTML 역정렬 ```<bdo>```
 
 BDO는 Bi-Directional Override의 약자입니다.
 
