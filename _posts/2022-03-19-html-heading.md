@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 4.헤딩(Heading)
+title: HTML 04.헤딩(Heading)
 subtitle: HTML 헤딩(Heading) 웹 페이지에 표시할 제목 또는 자막입니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
