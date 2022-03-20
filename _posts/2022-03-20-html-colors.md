@@ -14,4 +14,14 @@ tags: [html5, basic]
 
 HTML 에서는 다음의 색명을 사용해 색을 지정할 수 있습니다.
 
-![color](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html_colors_01.PNG?raw=true)
+![html_color_01](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_01.PNG?raw=true)
+
+HTML은 [140개의 표준 색상 이름][140_standard_color]을 지원합니다.
+
+[140_standard_color]: https://devjiraynor.github.io/2022-03-18-html-basic/ "140가지 기본 색상"
+
+## 배경 색상
+
+HTML 요소의 배경색을 설정할 수 있습니다.
+
+![html_color_02](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_02.PNG?raw=true)
