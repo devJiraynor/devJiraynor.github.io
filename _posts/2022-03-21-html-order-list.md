@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTML 목록
-subtitle: HTML 기본 목룍
+subtitle: HTML 기본 목록
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
 share-img: /assets/img/html_img.png
