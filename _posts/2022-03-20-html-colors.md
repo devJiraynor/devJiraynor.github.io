@@ -33,8 +33,8 @@ HTML 요소의 배경색을 설정할 수 있습니다.
 <p style="background-color:Tomato;">
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-Ut wisi enim ad minim veniam, 
-quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 </p>
 ```
 
@@ -53,8 +53,8 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 </p>
 <p style="color:MediumSeaGreen;">
-Ut wisi enim ad minim veniam, 
-quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 </p>
 ```
 
