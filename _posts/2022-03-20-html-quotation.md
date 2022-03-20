@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 8.인용 및 인용 요소(Quotation and Citation Elements)
+title: HTML 08.인용 및 인용 요소(Quotation and Citation Elements)
 subtitle: 이 장에서는 block quote, q, abbr, address, cite 및 bdo HTML 요소에 대해 설명합니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
