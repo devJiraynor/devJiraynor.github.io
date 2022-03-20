@@ -25,3 +25,11 @@ HTML은 [140개의 표준 색상 이름][140_standard_color]을 지원합니다.
 HTML 요소의 배경색을 설정할 수 있습니다.
 
 ![html_color_02](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_02.PNG?raw=true)
+
+###### 예제 1
+
+```html
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+```
+
