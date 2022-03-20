@@ -30,6 +30,67 @@ HTML 요소의 배경색을 설정할 수 있습니다.
 
 ```html
 <h1 style="background-color:DodgerBlue;">Hello World</h1>
-<p style="background-color:Tomato;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+Ut wisi enim ad minim veniam, 
+quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
 ```
 
+## 텍스트 색상
+
+텍스트 색상을 설정할 수 있습니다.
+
+![html_color_03](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_03.PNG?raw=true)
+
+###### 예제 2
+
+```html
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+</p>
+<p style="color:MediumSeaGreen;">
+Ut wisi enim ad minim veniam, 
+quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+```
+
+## 테두리 색
+
+테두리 색상을 설정할 수 있습니다.
+
+![html_color_04](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_04.PNG?raw=true)
+
+###### 예제 3
+
+```html
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+```
+
+## 색상 값
+
+HTML에서는 RGB 값, HEX 값, HSL 값, RGBA 값 및 HSLA 값을 사용하여 색상을 지정할 수도 있습니다.
+
+다음 3개의 <div> 요소에는 RGB, HEX 및 HSL 값이 설정된 배경색이 있습니다.
+  
+![html_color_05](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_05.PNG?raw=true)
+  
+다음 2개의 <div> 요소에는 RGBA 및 HSLA 값을 사용하여 배경색이 설정되어 있습니다.이것에 의해, 색상에 알파 채널이 추가됩니다(여기에서는 투과율이 50%입니다).
+  
+![html_color_06](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_06.PNG?raw=true)
+  
+###### 예제 4
+  
+```html
+<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+<h1 style="background-color:#ff6347;">#ff6347</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+```
