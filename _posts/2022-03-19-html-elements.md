@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 2.요소(Element)
+title: HTML 02.요소(Element)
 subtitle: HTML 요소는 시작 태그, 일부 내용 및 끝 태그로 정의됩니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
