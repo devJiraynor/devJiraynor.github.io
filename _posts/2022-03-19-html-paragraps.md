@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 5.단락(Paragrap)
+title: HTML 05.단락(Paragrap)
 subtitle: HTML 단락은 항상 새 행에서 시작하며 일반적으로 텍스트 블록입니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
