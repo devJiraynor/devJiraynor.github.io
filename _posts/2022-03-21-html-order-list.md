@@ -29,5 +29,5 @@ tags: [html5, basic]
 [html-text-formatting]: https://devjiraynor.github.io/2022-03-20-html-text-formatting/ "html 텍스트 형식 지정"
 [html-quotation]: https://devjiraynor.github.io/2022-03-20-html-quotation/ "html 인용"
 [html-comments]: https://devjiraynor.github.io/2022-03-20-html-comments/ "html 주석"
-[html-colors]: https://devjiraynor.github.io/2022-03-20-html-colors// "html 색상"
-[html-css]: https://devjiraynor.github.io/2022-03-21-html-css// "html css"
+[html-colors]: https://devjiraynor.github.io/2022-03-20-html-colors/ "html 색상"
+[html-css]: https://devjiraynor.github.io/2022-03-21-html-css/ "html css"
