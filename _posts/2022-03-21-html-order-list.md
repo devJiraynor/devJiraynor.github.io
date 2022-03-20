@@ -9,5 +9,7 @@ tags: [html5, basic]
 ---
 
 ## [HTML 1.기본][html-basic]
+## [HTML 2.요소(Element)][html-elements]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
+[html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
