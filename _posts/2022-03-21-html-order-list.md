@@ -8,15 +8,15 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
-+ ### [HTML 1.기본][html-basic]
-+ ### [HTML 2.요소(Element)][html-elements]
-+ ### [HTML 3.속성(Attributes)][html-attributes]
-+ ### [HTML 4.헤딩(Heading)][html-heading]
-+ ### [HTML 5.단락(Paragrap)][html-paragraps]
-+ ### [HTML 6.스타일(Style)][html-styles]
-+ ### [HTML 7.텍스트 형식 지정(Text Formatting)][html-text-formatting]
-+ ### [HTML 8.인용 및 인용 요소(Quotation and Citation Elements)][html-quotation]
-+ ### [HTML 9.주석(Comments)][html-comments]
++ ### [HTML 01.기본][html-basic]
++ ### [HTML 02.요소(Element)][html-elements]
++ ### [HTML 03.속성(Attributes)][html-attributes]
++ ### [HTML 04.헤딩(Heading)][html-heading]
++ ### [HTML 05.단락(Paragrap)][html-paragraps]
++ ### [HTML 06.스타일(Style)][html-styles]
++ ### [HTML 07.텍스트 형식 지정(Text Formatting)][html-text-formatting]
++ ### [HTML 08.인용 및 인용 요소(Quotation and Citation Elements)][html-quotation]
++ ### [HTML 09.주석(Comments)][html-comments]
 + ### [HTML 10.색상(Colors)][html-colors]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
