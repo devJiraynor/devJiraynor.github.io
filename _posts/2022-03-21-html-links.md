@@ -128,7 +128,7 @@ JavaScript를 사용하면 버튼 클릭과 같은 특정 이벤트에서 발생
 ###### 예제 7
 
 ```html
-<a href="https://devjiraynor.github.io/" title="Go to Jiraynor`s blog">Visit Jiraynor`s blog</a>
+<a href="https://devjiraynor.github.io/" title="Jiraynor`s blog">Visit Jiraynor`s blog</a>
 ```
 
 ## Summary
