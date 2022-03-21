@@ -138,3 +138,99 @@ JavaScript를 사용하면 버튼 클릭과 같은 특정 이벤트에서 발생
 + ```target``` 속성을 사용하여 연결된 문서를 열 위치를 정의합니다.
 + 이미지를 링크로 사용하려면 ```<img>``` 요소( ```<a>``` 내부)를 사용합니다.
 + ```href``` 속성 내의 ```mailto:``` 스키마를 사용하여 사용자의 이메일 프로그램을 여는 링크를 만듭니다.
+
+# HTML 링크 - 다른 색상
+
+## HTML 링크 색상
+
+기본적으로 링크는 다음과 같이 표시됩니다(모든 브라우저에서).
+
++ 방문하지 않은 링크에 밑줄이 그어져 파란색으로 표시됩니다.
++ 방문한 링크는 밑줄이 그어져 보라색입니다.
++ 활성 링크에 밑줄이 그어져 빨간색으로 표시됩니다.
+
+CSS를 사용하여 링크 상태 색상을 변경할 수 있습니다.
+
+###### 예제 8
+
+```html
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+```
+
+## 링크 버튼
+
+CSS를 사용하여 링크는 버튼으로 스타일링할 수도 있습니다.
+
+###### 예제 9
+
+```html
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+```
+
+# HTML 링크 북마크 생성
+
+## HTML로 북마크 작성
+
+북마크는 웹 페이지가 매우 긴 경우 유용합니다.
+
+북마크를 작성하려면 먼저 북마크를 작성한 후 북마크에 링크를 추가합니다.
+
+링크를 클릭하면 페이지가 아래로 스크롤되거나 북마크가 있는 위치까지 스크롤됩니다.
+
+###### 예제 10
+
+먼저 ```id``` 속성을 사용하여 북마크를 만듭니다.
+
+```html
+<h2 id="C4">Chapter 4</h2>
+```
+
+그런 다음 같은 페이지 내에서 북마크("4장으로")에 링크를 추가합니다.
+
+```html
+<a href="#C4">4장으로</a>
+```
+
+다른 페이지의 책갈피에 링크를 추가할 수도 있습니다.
+
+```html
+<a href="html_demo.html#C4">4장으로</a>
+```
+
