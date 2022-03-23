@@ -90,7 +90,7 @@ tr {
 
 ```tr``` 의 ```:hover``` 셀렉터를 사용하여 마우스 위의 테이블 행을 강조 표시합니다.
 
-![html_table-styling_05](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_table-styling_05.PNG?raw=true)
+![html_table-styling_05](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_table-styling_05.png?raw=true)
 
 ###### 예제 5
 
