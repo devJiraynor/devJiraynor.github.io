@@ -84,11 +84,11 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 
 따라서 좌표 ```34,44``` 는 왼쪽 여백에서 34픽셀, 위쪽에서 44픽셀입니다.
 
-![html-image-maps-02](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_02.png?raw=true)
+![html-image-maps-02](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_02.PNG?raw=true)
 
 좌표 ```270,350``` 은 왼쪽 여백에서 270픽셀, 위쪽에서 350픽셀에 위치합니다.
 
-![html-image-maps-03](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_03.png?raw=true)
+![html-image-maps-03](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_03.PNG?raw=true)
 
 이제 클릭 가능한 직사각형 영역을 만들 수 있는 충분한 데이터가 있습니다.
 
@@ -98,7 +98,7 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 
 이 영역은 클릭할 수 있게 되어 사용자를 "computer.htm" 페이지로 보냅니다.
 
-![html-image-maps-04](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_04.png?raw=true)
+![html-image-maps-04](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_04.PNG?raw=true)
 
 ##### Shape="circle"
 
@@ -106,13 +106,13 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 
 ```337, 300```
 
-![html-image-maps-05](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_05.png?raw=true)
+![html-image-maps-05](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_05.PNG?raw=true)
 
 그런 다음 원의 반지름을 지정합니다.
 
 ```44``` 픽셀
 
-![html-image-maps-06](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_06.png?raw=true)
+![html-image-maps-06](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_06.PNG?raw=true)
 
 이제 클릭 가능한 원형 영역을 만들 수 있는 충분한 데이터가 있습니다.
 
@@ -122,7 +122,7 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 
 이 영역은 클릭할 수 있게 되어 사용자를 "coffee.htm" 페이지로 보냅니다.
 
-![html-image-maps-07](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_07.png?raw=true)
+![html-image-maps-07](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_07.PNG?raw=true)
 
 ##### Shape="poly"
 
@@ -138,7 +138,7 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 
 크로와상의 모든 모서리에 대한 x 및 y 좌표를 찾아야 합니다.
 
-![html-image-maps-09](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_09.png?raw=true)
+![html-image-maps-09](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_09.PNG?raw=true)
 
 좌표는 x축과 y축에 각각 하나씩 쌍으로 제공됩니다.
 
@@ -148,7 +148,7 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 
 이 영역은 클릭할 수 있게 되어 사용자를 "croissant.htm" 페이지로 보냅니다.
 
-![html-image-maps-10](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_10.png?raw=true)
+![html-image-maps-10](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_10.PNG?raw=true)
 
 ## 이미지 맵과 JavaScript
 
