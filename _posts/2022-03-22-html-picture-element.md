@@ -1,7 +1,7 @@
 ---
 layout: post
-title: HTML 13-3. <picture> 요소
-subtitle: HTML <picture> 요소에서는, 디바이스 또는 화면 사이즈에 따라 다른 화상을 표시할 수 있습니다.
+title: HTML 13-3. picture 요소
+subtitle: HTML picture 요소에서는, 디바이스 또는 화면 사이즈에 따라 다른 화상을 표시할 수 있습니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
 share-img: /assets/img/html_img.png
