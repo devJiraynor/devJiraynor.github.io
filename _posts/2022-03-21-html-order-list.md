@@ -29,7 +29,7 @@ tags: [html5, basic]
   * #### [HTML 15-1. 테이블 테두리 (Table Borders)][html-table-borders]
   * #### [HTML 15-2. 테이블 사이즈 (Table Size)][html-table-sizes]
   * #### [HTML 15-3. 테이블 헤더 (Table Headers)][html-table-headers]
-  * #### [HTML 15-3. 테이블 패딩 및 스페이싱 (Table Pading & Spacing)][html-table-padding-spacing]
+  * #### [HTML 15-4. 테이블 패딩 및 스페이싱 (Table Pading & Spacing)][html-table-padding-spacing]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
