@@ -21,9 +21,9 @@ tags: [html5, basic]
 + ### [HTML 11. Styles - CSS][html-css]
 + ### [HTML 12. 링크 (Links)][html-links]
 + ### [HTML 13. 이미지 (Images)][html-images]
-- ##### [HTML 13-1. 이미지 맵 (Image - map)][html-image-map]
-- ##### [HTML 13-2. 배경 이미지 (Background Image)][html-background-image]
-- ##### [HTML 13-3. picture 요소][html-picture-element]
+  * #### [HTML 13-1. 이미지 맵 (Image - map)][html-image-map]
+  * #### [HTML 13-2. 배경 이미지 (Background Image)][html-background-image]
+  * #### [HTML 13-3. picture 요소][html-picture-element]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
