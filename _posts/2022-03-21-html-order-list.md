@@ -31,6 +31,8 @@ tags: [html5, basic]
   * #### [HTML 15-3. 테이블 헤더 (Table Headers)][html-table-headers]
   * #### [HTML 15-4. 테이블 패딩 및 스페이싱 (Table Pading & Spacing)][html-table-padding-spacing]
   * #### [HTML 15-5. 테이블 colspan 및 rowspan (Tables Colspan & Rowspan)][html-table-colspan-rowspan]
+  * #### [HTML 15-6. 테이블 스타일링 (Table Styling)][html-table-styling]
+  * #### [HTML 15-7. 테이블 열 그룹 (Table Colgroup)][html-table-colgroup]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -54,4 +56,6 @@ tags: [html5, basic]
 [html-table-sizes]: https://devjiraynor.github.io/2022-03-23-html-table-sizes/ "html 테이블 사이즈"
 [html-table-headers]: https://devjiraynor.github.io/2022-03-23-html-table-headers/ "html 테이블 헤더"
 [html-table-padding-spacing]: https://devjiraynor.github.io/2022-03-23-html-table-padding-spacing/ "html 테이블 패딩 및 스페이싱"
-[html-table-colspan-rowspan]: https://devjiraynor.github.io/2022-03-23-html-table-colspan-rowspan/ "html colspan 및 rowspan"
+[html-table-colspan-rowspan]: https://devjiraynor.github.io/2022-03-23-html-table-colspan-rowspan/ "html 테이블 colspan 및 rowspan"
+[html-table-styling]: https://devjiraynor.github.io/2022-03-23-html-table-styling/ "HTML 테이블 스타일링"
+[html-table-colgroup]: https://devjiraynor.github.io/2022-03-23-html-table-colgroup/ "html 테이블 열 그룹n"
