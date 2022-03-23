@@ -24,6 +24,7 @@ tags: [html5, basic]
   * #### [HTML 13-1. 이미지 맵 (Image - map)][html-image-map]
   * #### [HTML 13-2. 배경 이미지 (Background Image)][html-background-image]
   * #### [HTML 13-3. picture 요소][html-picture-element]
++ ### [HTML 14. 파비콘 (Favicon)][html-favicon]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -41,3 +42,4 @@ tags: [html5, basic]
 [html-image-map]: https://devjiraynor.github.io/2022-03-22-html-image-map/ "html 이미지 맵"
 [html-background-image]: https://devjiraynor.github.io/2022-03-22-html-background-image/ "html 배경 이미지"
 [html-picture-element]: https://devjiraynor.github.io/2022-03-22-html-picture-element/ "html picture 요소"
+[html-favicon]: https://devjiraynor.github.io/2022-03-23-html-favicon/ "html 파비콘"
