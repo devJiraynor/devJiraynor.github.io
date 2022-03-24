@@ -150,9 +150,7 @@ export default App;
 
 컴퓨터에서 동일한 단계를 수행하려면 먼저 ```src``` 폴더를 제거하여 ```index.js``` 파일을 하나만 포함합니다. 또한 ```index.js``` 파일 내의 불필요한 코드 행을 삭제하여 아래의 "Show React" 도구의 예시와 동일하게 만들어야 합니다.
 
-###### 예제 3
-
-```index.js``` : 
+###### 예제 3 - index.js
 
 ```javascript
 import React from 'react';
