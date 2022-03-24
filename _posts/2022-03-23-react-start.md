@@ -127,7 +127,7 @@ HTML 내용을 변경하고 파일을 저장해 보십시오.
 
 ```<div className="App">``` 내의 모든 콘텐츠를 ```<h1>``` 요소로 바꿉니다.
 
-```
+```javascript
 function App() {
   return (
     <div className="App">
