@@ -33,6 +33,8 @@ tags: [html5, basic]
   * #### [HTML 15-5. 테이블 colspan 및 rowspan (Tables Colspan & Rowspan)][html-table-colspan-rowspan]
   * #### [HTML 15-6. 테이블 스타일링 (Table Styling)][html-table-styling]
   * #### [HTML 15-7. 테이블 열 그룹 (Table Colgroup)][html-table-colgroup]
++ ### [HTML 16. 리스트 (Lists)][html-lists]
+  * #### [HTML 16-1. 순서 없는 리스트 (Unordered Lists)][html-unordered-lists]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -58,4 +60,6 @@ tags: [html5, basic]
 [html-table-padding-spacing]: https://devjiraynor.github.io/2022-03-23-html-table-padding-spacing/ "html 테이블 패딩 및 스페이싱"
 [html-table-colspan-rowspan]: https://devjiraynor.github.io/2022-03-23-html-table-colspan-rowspan/ "html 테이블 colspan 및 rowspan"
 [html-table-styling]: https://devjiraynor.github.io/2022-03-23-html-table-styling/ "HTML 테이블 스타일링"
-[html-table-colgroup]: https://devjiraynor.github.io/2022-03-23-html-table-colgroup/ "html 테이블 열 그룹n"
+[html-table-colgroup]: https://devjiraynor.github.io/2022-03-23-html-table-colgroup/ "html 테이블 열 그룹"
+[html-table-lists]: https://devjiraynor.github.io/2022-03-23-html-table-lists/ "html 리스트"
+[html-unordered-lists]: https://devjiraynor.github.io/2022-03-23-html-unordered-lists/ "html 순서 없는 리스트"
