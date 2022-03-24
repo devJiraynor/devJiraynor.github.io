@@ -36,6 +36,7 @@ tags: [html5, basic]
 + ### [HTML 16. 리스트 (Lists)][html-lists]
   * #### [HTML 16-1. 순서 없는 리스트 (Unordered Lists)][html-unordered-lists]
   * #### [HTML 16-2. 순서 있는 리스트 (Ordered Lists)][html-ordered-lists]
+  * #### [HTML 16-3. 설명 리스트 (Description Lists)][html-description-list]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -65,3 +66,4 @@ tags: [html5, basic]
 [html-lists]: https://devjiraynor.github.io/2022-03-23-html-lists/ "html 리스트"
 [html-unordered-lists]: https://devjiraynor.github.io/2022-03-23-html-unordered-lists/ "html 순서 없는 리스트"
 [html-ordered-lists]: https://devjiraynor.github.io/2022-03-23-html-ordered-lists/ "html 순서 있는 리스트"
+[html-description-list]: https://devjiraynor.github.io/2022-03-23-html-description-list/ "html 설명 리스트"
