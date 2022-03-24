@@ -14,4 +14,4 @@ tags: [React.js, basic]
 
 [react-intro]: https://devjiraynor.github.io/2022-03-23-react-intro/ "react 소개"
 [react-start]: https://devjiraynor.github.io/2022-03-23-react-start/ "react 시작하기"
-[react-es6]: https://devjiraynor.github.io/2022-03-23-react-es6/ "react es6"
+[react-es6]: https://devjiraynor.github.io/2022-03-24-react-es6/ "react es6"
