@@ -152,7 +152,7 @@ export default App;
 
 ###### 예제 3
 
-```index.js```
+```index.js``` : 
 
 ```javascript
 import React from 'react';
