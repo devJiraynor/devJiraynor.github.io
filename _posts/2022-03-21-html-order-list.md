@@ -43,6 +43,8 @@ tags: [html5, basic]
 + ### [HTML 20. 아이프레임 (Iframe)][html-iframes]
 + ### [HTML 21. 자바스크립트 (Javascript)][html-javascript]
 + ### [HTML 22. 파일 경로 (File Paths)][html-file-paths]
++ ### [HTML 23. 헤드 (Head Element)][html-head]
++ ### [HTML 24. 레이아웃 (Layout)][html-layout]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -79,3 +81,5 @@ tags: [html5, basic]
 [html-iframes]: https://devjiraynor.github.io/2022-03-24-html-iframes/ "html iframe"
 [html-javascript]: https://devjiraynor.github.io/2022-03-24-html-javascript/ "html 자바스크립트"
 [html-file-paths]: https://devjiraynor.github.io/2022-03-24-html-file-paths/ "html 파일 경로"
+[html-head]: https://devjiraynor.github.io/2022-03-25-html-head/ "html 헤드"
+[html-layout]: https://devjiraynor.github.io/2022-03-25-html-layout/ "html 레이아웃"
