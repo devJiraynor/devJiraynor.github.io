@@ -61,5 +61,5 @@ tags: [html5, basic]
 [html-table-colspan-rowspan]: https://devjiraynor.github.io/2022-03-23-html-table-colspan-rowspan/ "html 테이블 colspan 및 rowspan"
 [html-table-styling]: https://devjiraynor.github.io/2022-03-23-html-table-styling/ "HTML 테이블 스타일링"
 [html-table-colgroup]: https://devjiraynor.github.io/2022-03-23-html-table-colgroup/ "html 테이블 열 그룹"
-[html-table-lists]: https://devjiraynor.github.io/2022-03-23-html-table-lists/ "html 리스트"
+[html-lists]: https://devjiraynor.github.io/2022-03-23-html-lists/ "html 리스트"
 [html-unordered-lists]: https://devjiraynor.github.io/2022-03-23-html-unordered-lists/ "html 순서 없는 리스트"
