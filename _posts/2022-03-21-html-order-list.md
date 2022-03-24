@@ -35,6 +35,7 @@ tags: [html5, basic]
   * #### [HTML 15-7. 테이블 열 그룹 (Table Colgroup)][html-table-colgroup]
 + ### [HTML 16. 리스트 (Lists)][html-lists]
   * #### [HTML 16-1. 순서 없는 리스트 (Unordered Lists)][html-unordered-lists]
+  * #### [HTML 16-2. 순서 있는 리스트 (Ordered Lists)][html-ordered-lists]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -63,3 +64,4 @@ tags: [html5, basic]
 [html-table-colgroup]: https://devjiraynor.github.io/2022-03-23-html-table-colgroup/ "html 테이블 열 그룹"
 [html-lists]: https://devjiraynor.github.io/2022-03-23-html-lists/ "html 리스트"
 [html-unordered-lists]: https://devjiraynor.github.io/2022-03-23-html-unordered-lists/ "html 순서 없는 리스트"
+[html-ordered-lists]: https://devjiraynor.github.io/2022-03-23-html-ordered-lists/ "html 순서 있는 리스트"
