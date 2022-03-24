@@ -17,7 +17,11 @@ navbar-links:
   About Me: "aboutme"
   Contents:
     - HTML: "https://devjiraynor.github.io/2022-03-21-html-order-list/"
-    - React: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
+    - CSS: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
+    - JavaScript: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
+    - Python: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
+    - React.js: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
+    - Node.js: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
     - Learn markdown: "https://www.markdowntutorial.com/"
   w3schools: "https://w3schools.com"
 
