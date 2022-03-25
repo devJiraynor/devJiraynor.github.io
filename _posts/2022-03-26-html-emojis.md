@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTML 31. 이모지 (Emojis)
-subtitle: 이모티콘은 UTF-8 문자 집합의 문자입니다. 😄😍💗
+subtitle: 이모지는 UTF-8 문자 집합의 문자입니다. 😄😍💗
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
 share-img: /assets/img/html_img.png
