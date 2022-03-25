@@ -196,3 +196,126 @@ React Class 구성 요소에는 기본 제공 ```state``` 개체가 있습니다
 
 ```state``` 개체가 변경되면 구성 요소가 다시 렌더링됩니다.
 
+## state 객체 생성
+
+```state``` 객체는 생성자에서 초기화됩니다.
+
+###### 예제 8 - 생성자 메서드에서 state 객체를 지정합니다.
+
+```javascript
+class Car extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {brand: "Ford"};
+  }
+  render() {
+    return (
+      <div>
+        <h1>My Car</h1>
+      </div>
+    );
+  }
+}
+```
+
+state 객체에는 원하는 개수의 속성을 포함할 수 있습니다.
+
+###### 예제 9 - 컴포넌트에 필요한 모든 속성을 지정
+
+```javascript
+class Car extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      brand: "Ford",
+      model: "Mustang",
+      color: "red",
+      year: 1964
+    };
+  }
+  render() {
+    return (
+      <div>
+        <h1>My Car</h1>
+      </div>
+    );
+  }
+}
+```
+
+## ```state``` 객체 사용
+
+```this.state.propertyname``` 구문을 사용하여 컴포넌트 내의 임의의 ```state``` 객체를 참조합니다.
+
+###### 예제 10 - ```render()``` 메서드의 ```state``` 객체를 참조
+
+```javascript
+class Car extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      brand: "Ford",
+      model: "Mustang",
+      color: "red",
+      year: 1964
+    };
+  }
+  render() {
+    return (
+      <div>
+        <h1>My {this.state.brand}</h1>
+        <p>
+          It is a {this.state.color}
+          {this.state.model}
+          from {this.state.year}.
+        </p>
+      </div>
+    );
+  }
+}
+```
+
+## ```state``` 객체 변경
+
+state 객체의 값을 변경하려면 ```this.setState()``` 메서드를 사용합니다.
+
+```state``` 객체의 값이 변경되면 컴포넌트가 다시 렌더링되므로 출력이 새 값에 따라 변경됩니다.
+
+###### 예제 11 - color 속성을 변경하는 ```onClick``` 이벤트가 있는 버튼을 추가
+
+```javascript
+class Car extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      brand: "Ford",
+      model: "Mustang",
+      color: "red",
+      year: 1964
+    };
+  }
+  changeColor = () => {
+    this.setState({color: "blue"});
+  }
+  render() {
+    return (
+      <div>
+        <h1>My {this.state.brand}</h1>
+        <p>
+          It is a {this.state.color}
+          {this.state.model}
+          from {this.state.year}.
+        </p>
+        <button
+          type="button"
+          onClick={this.changeColor}
+        >Change color</button>
+      </div>
+    );
+  }
+}
+```
+
+{: .box-note}
+항상 ```setState()``` 메서드를 사용하여 상태 객체를 변경해 주세요. 이 메서드는 컴포넌트가 갱신되었음을 인식하고 ```render()``` 메서드(및 기타 모든 라이프 사이클 메서드)를 호출합니다.
+
