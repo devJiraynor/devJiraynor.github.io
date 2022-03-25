@@ -1,0 +1,33 @@
+---
+layout: post
+title: HTML 30. 심볼 (Symbols)
+subtitle: 키보드에 없는 기호는 엔티티를 사용하여 추가할 수도 있습니다
+cover-img: /assets/img/html_img.png
+thumbnail-img: /assets/img/html_thumb.png
+share-img: /assets/img/html_img.png
+tags: [html5, basic]
+---
+
+# HTML 심볼
+
+## HTML 심볼 엔티티
+
+HTML 엔티티에 대해서는 앞 장에서 설명했습니다.
+
+수학 기호, 기술 기호 및 통화 기호는 일반 키보드에 표시되지 않습니다.
+
+이러한 기호를 HTML 페이지에 추가하려면 해당 기호로 엔티티 이름 또는 엔티티 번호(10진수 또는 16진수 참조)를 사용합니다.
+
+###### 예제 1
+
+```html
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+```
+
+###### 결과
+
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
