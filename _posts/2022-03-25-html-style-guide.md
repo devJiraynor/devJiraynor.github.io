@@ -398,13 +398,13 @@ XML/XHTML 소프트웨어가 페이지에 액세스 할 것으로 예상되는 �
 
 짧은 CSS 규칙은 다음과 같이 압축하여 쓸 수 있습니다.
 
-```html
+```css
 p.intro {font-family:Verdana;font-size:16em;}
 ```
 
 긴 CSS 규칙은 여러 줄에 걸쳐 작성해야 합니다.
 
-```html
+```css
 body {
   background-color: lightgrey;
   font-family: "Arial Black", Helvetica, sans-serif;
@@ -436,7 +436,7 @@ body {
 
 ###### 예제 15
 
-```html
+```javascript
 getElementById("Demo").innerHTML = "Hello";
 
 getElementById("demo").innerHTML = "Hello";
