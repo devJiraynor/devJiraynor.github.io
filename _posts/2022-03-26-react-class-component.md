@@ -340,3 +340,389 @@ React에는 컴포넌트를 마운트할 때 다음 순서로 호출되는 4가�
 
 #### constructor
 
+```constructor()``` 메서드는 컴포넌트가 시작되었을 때 가장 먼저 호출되며 초기 ```state``` 및 기타 초기 값을 설정하는 함수입니다.
+
+```constructor()``` 메서드는 인수로서 ```props```와 함께 호출되며, 항상 먼저 ```super(props)```를 호출해야 합니다.이것에 의해 부모(```React.Component```) 컨스트럭터 메서드가 개시되어 컴포넌트가 부모로부터 메서드를 상속받을 수 있습니다.
+
+###### 예제 12 - 컴포넌트를 만들 때마다 React에 의해 ```constructor``` 함수가 호출됨
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  render() {
+    return (
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+#### getDerivedStateFromProps
+
+```getDerivedStateFromProps()``` 메서드는 DOM 내의 요소를 렌더링하기 직전에 호출됩니다.
+
+초기 ```props```를 기준으로 ```state``` 객체를 설정하는 함수입니다.
+
+이 명령어는 ```state```를 인수로 사용하고 ```state```를 변경한 객체를 반환합니다.
+
+다음 예시는 ```favoritecolor```가 "red"인 상태에서 시작하지만 ```getDerivedStateFromProps()``` 메서드는 ```favcol``` 속성을 기반으로 ```favoritecolor```를 업데이트합니다.
+
+###### 예제 13 - ```getDerivedStateFromProps()``` 메서드는 ```render()``` 메서드 직전에 호출됨
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  static getDerivedStateFromProps(props, state) {
+    return {favoritecolor: props.favcol };
+  }
+  render() {
+    return (
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+    );
+  }
+}
+
+ReactDOM.render(<Header favcol="yellow"/>, document.getElementById('root'));
+```
+
+#### render
+
+```render()``` 메서드는 필수이며 실제로 HTML을 DOM에 출력하는 메서드입니다.
+
+###### 예제 14 - ```render()``` 메서드를 사용하는 단순한 컴포넌트
+
+```javascript
+class Header extends React.Component {
+  render() {
+    return (
+      <h1>This is the content of the Header component</h1>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+#### componentDidMount
+
+componentDidMount() 메서드는 컴포넌트가 렌더링된 후에 호출됩니다.
+
+여기서 컴포넌트가 DOM에 배치된 후 실행되어야 하는 구문을 실행합니다.
+
+###### 예제 15 - 처음 ```favoritecolor```는 "red"였지만 1초 후 "yellow"로 변경됨
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({favoritecolor: "yellow"})
+    }, 1000)
+  }
+  render() {
+    return (
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+## Updating
+
+라이프 사이클의 다음 단계는 컴포넌트가 갱신되는 시점입니다.
+
+컴포넌트는 컴포넌트 ```state``` 또는 ```props```가 변경될 때마다 갱신됩니다.
+
+React에는 컴포넌트가 갱신되면 다음 순서로 호출되는 5가지 메서드가 내장되어 있습니다.
+
+1. ```getDerivedStateFromProps()```
+2. ```shouldComponentUpdate()```
+3. ```render()```
+4. ```getSnapshotBeforeUpdate()```
+5. ```componentDidUpdate()```
+
+```render()``` 메서드는 필수이며 항상 호출됩니다. 다른 메서드는 옵션이며 정의하면 호출됩니다.
+
+#### getDerivedStateFromProps
+
+업데이트 시 ```getDerivedStateFromProps()``` 메서드가 호출됩니다. 이것은 컴포넌트가 갱신될 때 호출되는 첫 번째 메서드입니다.
+
+초기 ```props```를 바탕으로 ```state``` 객체를 설정할 수 있는 함수입니다.
+
+다음 예에서는 ```favoritecolor```을 "blue"으로 변경하는 버튼이 있는데, ```getDerivedStateFromProps()``` 메서드가 호출되어 ```favcol``` 속성의 색상으로 상태가 업데이트되므로 ```favoritecolor```는 "yellow"로 계속 렌더링됩니다.
+
+###### 예제 16 - 컴포넌트가 갱신되면 ```getDerivedStateFromProps()``` 메서드는 다음과 같이 호출됨
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  static getDerivedStateFromProps(props, state) {
+    return {favoritecolor: props.favcol };
+  }
+  changeColor = () => {
+    this.setState({favoritecolor: "blue"});
+  }
+  render() {
+    return (
+      <div>
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+      <button type="button" onClick={this.changeColor}>Change color</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Header favcol="yellow"/>, document.getElementById('root'));
+```
+
+#### shouldComponentUpdate
+
+```showComponentUpdate()``` 메서드에서는 React가 렌더링을 계속할 것인지 여부를 지정하는 논리 값을 반환할 수 있습니다.
+
+기본값은 ```true``` 입니다.
+
+다음 예시는 ```shouldComponentUpdate()``` 메서드가 ```false``` 를 반환했을 때 어떻게 되는지 보여 줍니다.
+
+###### 예제 17 - 업데이트 시 구성 요소의 렌더링을 중지함
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  shouldComponentUpdate() {
+    return false;
+  }
+  changeColor = () => {
+    this.setState({favoritecolor: "blue"});
+  }
+  render() {
+    return (
+      <div>
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+      <button type="button" onClick={this.changeColor}>Change color</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+###### 예제 18 - ```shouldComponentUpdate()``` 메서드가 ```true``` 를 반환
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  shouldComponentUpdate() {
+    return true;
+  }
+  changeColor = () => {
+    this.setState({favoritecolor: "blue"});
+  }
+  render() {
+    return (
+      <div>
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+      <button type="button" onClick={this.changeColor}>Change color</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+#### render
+
+```render()``` 메서드는 컴포넌트가 갱신되면 당연히 호출됩니다. 이 메서드는 새로운 변경이 발생하면 HTML을 DOM으로 다시 렌더링 합니다.
+
+다음 예에서는 ```favoritecolor```을 "blue"로 변경하는 버튼이 있습니다.
+
+###### 예제 19 - 버튼을 클릭하여 컴포넌트 상태를 변경
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  changeColor = () => {
+    this.setState({favoritecolor: "blue"});
+  }
+  render() {
+    return (
+      <div>
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+      <button type="button" onClick={this.changeColor}>Change color</button>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+#### getSnapshotBeforeUpdate
+
+```getSnapshotBeforeUpdate()``` 메서드에서는 업데이트 전 ```props``` 및 ```state```에 액세스할 수 있습니다. 즉, 업데이트 후에도 업데이트 전 값을 확인할 수 있습니다.
+
+```getSnapshotBeforeUpdate()``` 메서드가 있는 경우 ```componentDidUpdate()``` 메서드도 포함해야 합니다. 그렇지 않으면 오류가 발생합니다.
+
+다음 예시는 복잡해 보일 수 있지만 이 예에서는 다음과 같은 기능만 수행합니다.
+
+컴포넌트가 마운트되면, ```favoritecolor``` 는 "red" 로 렌더링 됩니다.
+
+컴포넌트가 마운트되면 타이머에 의해 ```state```가 변화하고 1초 후에 ```favoritecolor```가 "yellow"가 됩니다.
+
+이 액션은 업데이트 단계를 트리거합니다. 이 컴포넌트는 ```getSnapshotBeforeUpdate()``` 메서드를 가지고 있기 때문에 이 메서드가 실행되어 빈 DIV1 요소에 메시지가 기록됩니다.
+
+그런 다음 ```componentDidUpdate()``` 메서드가 실행되어 빈 DIV2 요소에 메시지가 기록됩니다.
+
+###### 예제 20 - ```getSnapshotBeforeUpdate()``` 메서드를 사용하여 업데이트 전 상태 개체를 확인
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({favoritecolor: "yellow"})
+    }, 1000)
+  }
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    document.getElementById("div1").innerHTML =
+    "Before the update, the favorite was " + prevState.favoritecolor;
+  }
+  componentDidUpdate() {
+    document.getElementById("div2").innerHTML =
+    "The updated favorite is " + this.state.favoritecolor;
+  }
+  render() {
+    return (
+      <div>
+        <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+        <div id="div1"></div>
+        <div id="div2"></div>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+#### componentDidUpdate
+
+```componentDidUpdate``` 메서드는 DOM에서 구성 요소가 업데이트된 후 호출됩니다.
+
+다음 예시는 복잡해 보일 수 있지만 이 예에서는 다음과 같은 기능만 수행합니다.
+
+컴포넌트가 마운트되면, ```favoritecolor```는 "red" 로 렌더링 됩니다.
+
+컴포넌트가 마운트되면 타이머에 의해 ```state```가 변화하고 ```favoritecolor``` "yellow" 됩니다.
+
+이 액션은 업데이트 단계를 트리거합니다. 이 컴포넌트에는 ```componentDidUpdate``` 메서드가 있기 때문에 다음 메서드가 실행되어 빈 DIV 요소에 메시지가 기록됩니다.
+
+###### 예제 21 - ```componentDidUpdate``` 메서드는 업데이트가 DOM에 렌더링된 후 호출됨
+
+```javascript
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({favoritecolor: "yellow"})
+    }, 1000)
+  }
+  componentDidUpdate() {
+    document.getElementById("mydiv").innerHTML =
+    "The updated favorite is " + this.state.favoritecolor;
+  }
+  render() {
+    return (
+      <div>
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+      <div id="mydiv"></div>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('root'));
+```
+
+## Unmounting
+
+라이프 사이클의 다음 단계는 구성 요소가 DOM에서 제거되거나 React가 원하는 대로 마운트 해제하는 것입니다.
+
+React에는 컴포넌트가 마운트 해제되었을 때 호출되는 메서드가 1개밖에 없습니다.
+
++ ```componentWillUnmount()```
+
+#### componentWillUnmount
+
+```componentWillUnmount``` 메서드는 컴포넌트가 DOM에서 삭제될 때 호출됩니다.
+
+###### 예제 22 - 버튼을 클릭하여 헤더를 삭제
+
+```javascript
+class Container extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {show: true};
+  }
+  delHeader = () => {
+    this.setState({show: false});
+  }
+  render() {
+    let myheader;
+    if (this.state.show) {
+      myheader = <Child />;
+    };
+    return (
+      <div>
+      {myheader}
+      <button type="button" onClick={this.delHeader}>Delete Header</button>
+      </div>
+    );
+  }
+}
+
+class Child extends React.Component {
+  componentWillUnmount() {
+    alert("The component named Header is about to be unmounted.");
+  }
+  render() {
+    return (
+      <h1>Hello World!</h1>
+    );
+  }
+}
+
+ReactDOM.render(<Container />, document.getElementById('root'));
+```
