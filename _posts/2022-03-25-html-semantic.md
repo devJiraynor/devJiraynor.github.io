@@ -165,3 +165,127 @@ W3C의 HTML 문서에 따르면 "섹션은 콘텐츠의 주제 그룹이며, 일
 
 {: .box-note}
 **Note:** 1개의 HTML 문서에 여러 개의 ```<header>``` 요소를 포함할 수 있습니다. 단, ```<header>``` 는 ```<footer>```, ```<address>``` 또는 다른 ```<header>``` 요소 내에 배치할 수 없습니다.
+
+###### 예제 4
+
+```html
+<article>
+  <header>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission:</p>
+  </header>
+  <p>WWF's mission is to stop the degradation of our planet's natural environment,
+  and build a future in which humans live in harmony with nature.</p>
+</article>
+```
+
+## HTML ```<footer>``` 요소
+
+```<footer>``` 요소는 문서 또는 섹션의 바닥글을 정의합니다.
+
+```<footer>``` 요소에는 일반적으로 다음이 포함됩니다.
+
++ 저자 정보
++ 저작권 정보
++ 연락처 정보
++ 사이트 맵
++ 홈으로 이동
++ 관련 문서
+
+1개의 문서에 여러 개의 ```<footer>``` 요소를 포함할 수 있습니다.
+
+###### 예제 5
+
+```html
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+```
+
+## HTML ```<nav>``` 요소
+
+```<nav>``` 요소는 네비게이션링크 세트를 정의합니다.
+
+{: .box-note}
+문서의 모든 링크가 ```<nav>``` 요소 안에 있는 것은 아닙니다. ```<nav>``` 요소는 내비게이션 링크의 주요 블록만을 대상으로 합니다. 비활성화된 사용자의 화면 판독기와 같은 브라우저는 이 요소를 사용하여 내용의 초기 렌더링을 생략할지 여부를 결정할 수 있습니다.
+
+###### 예제 6
+
+```html
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+```
+
+## HTML ```<aside>``` 요소
+
+```<aside>``` 요소는, 컨텐츠가 배치되어 있는 컨텐츠(사이드바등)와는 별도로, 몇개의 컨텐츠를 정의합니다.
+
+```<aside>``` 콘텐츠는 주변 콘텐츠와 간접적으로 관련되어 있어야 합니다.
+
+###### 예제 7
+
+```html
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+```
+
+###### 예제 8
+
+```html
+<html>
+<head>
+<style>
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+</style>
+</head>
+<body>
+
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside>
+<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+</body>
+</html>
+```
+
+## HTML ```<figure>``` 와 ```<figcaption>``` 요소
+
+```<figure>``` 태그는 일러스트, 다이어그램, 사진, 코드 리스트 등 셀프 콘텐츠를 지정합니다.
+
+```<figcaption>``` 태그는 ```<figure>``` 요소의 캡션을 정의합니다. ```<figcaption>``` 요소는 ```<figure>``` 요소의 첫 번째 자식 또는 마지막 자식으로 배치할 수 있습니다.
+
+```<img>``` 요소는 실제 이미지/ 일러스트를 정의합니다.
+
+###### 예제 9
+
+```html
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli">
+  <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+</figure>
+```
+
+## 왜 시맨틱 요소를 사용해야하는가?
+
+W3C에 따르면 "시맨틱 웹을 통해 애플리케이션, 기업 및 커뮤니티에서 데이터를 공유하고 재사용할 수 있습니다." 라는 취지로 사용됩니다.
