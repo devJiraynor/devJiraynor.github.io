@@ -324,3 +324,19 @@ class Car extends React.Component {
 React의 각 구성 요소에는 3가지 주요 단계에서 모니터링 및 조작할 수 있는 라이프 사이클이 있습니다.
 
 **Mounting**, **Updating**, **Unmounting** 3가지 단계가 있습니다.
+
+## Mounting
+
+Mounting이란 요소를 DOM에 넣는 것을 의미합니다.
+
+React에는 컴포넌트를 마운트할 때 다음 순서로 호출되는 4가지 메서드가 내장되어 있습니다.
+
+1. ```constructor()```
+2. ```getDerivedStateFromProps()```
+3. ```render()```
+4. ```componentDidMount()```
+
+```render()``` 메서드는 필수이며 항상 호출됩니다. 다른 메서드는 옵션이며 정의하면 호출됩니다.
+
+#### constructor
+
