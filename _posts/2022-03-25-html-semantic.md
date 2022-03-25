@@ -31,7 +31,7 @@ HTML 에는 웹 페이지의 다른 부분을 정의하기 위해서 사용할 �
 + ```<article>```
 + ```<aside>```
 + ```<details>```
-+ ``<figcaption>```
++ ```<figcaption>```
 + ```<figure>```
 + ```<footer>```
 + ```<header>```
