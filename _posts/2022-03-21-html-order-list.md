@@ -55,6 +55,7 @@ tags: [html5, basic]
 + ### [HTML 32. 인코딩 (Encoding)][html-encoding]
 + ### [HTML 33. URL 인코딩 (URL Encoding)][html-url-encoding]
 + ### [HTML 34. HTML vs XHTML][html-xhtml]
++ ### [HTML 35. 폼 (Form)][html-form]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -103,3 +104,4 @@ tags: [html5, basic]
 [html-encoding]: https://devjiraynor.github.io/2022-03-26-html-encoding/ "html 인코딩"
 [html-url-encoding]: https://devjiraynor.github.io/2022-03-26-html-url-encoding/ "html url 인코딩"
 [html-xhtml]: https://devjiraynor.github.io/2022-03-26-html-xhtml/ "html xhtml"
+[html-form]: https://devjiraynor.github.io/2022-03-26-html-form/ "html 폼"
