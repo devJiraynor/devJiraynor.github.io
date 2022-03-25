@@ -19,5 +19,5 @@ tags: [React.js, basic]
 [react-start]: https://devjiraynor.github.io/2022-03-23-react-start/ "react 시작하기"
 [react-es6]: https://devjiraynor.github.io/2022-03-24-react-es6/ "react es6"
 [react-render-html]: https://devjiraynor.github.io/2022-03-25-react-render-html/ "react 렌더링"
-[react-jsx]: https://devjiraynor.github.io/2022-03-24-react-jsx/ "react jsx"
-[react-component]: https://devjiraynor.github.io/2022-03-24-react-component/ "react 컴포넌트"
+[react-jsx]: https://devjiraynor.github.io/2022-03-25-react-jsx/ "react jsx"
+[react-component]: https://devjiraynor.github.io/2022-03-26-react-component/ "react 컴포넌트"
