@@ -51,6 +51,7 @@ tags: [html5, basic]
 + ### [HTML 28. 스타일 가이드 (Style Guide)][html-style-guide]
 + ### [HTML 29. 엔티티 (Entities)][html-entities]
 + ### [HTML 30. 심볼 (Symbols)][html-symbols]
++ ### [HTML 31. 이모지 (Emojis)][html-emojis]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -95,3 +96,4 @@ tags: [html5, basic]
 [html-style-guide]: https://devjiraynor.github.io/2022-03-25-html-style-guide/ "html 스타일 가이드"
 [html-entities]: https://devjiraynor.github.io/2022-03-26-html-entities/ "html 엔티티"
 [html-symbols]: https://devjiraynor.github.io/2022-03-26-html-symbols/ "html 심볼"
+[html-emojis]: https://devjiraynor.github.io/2022-03-26-html-emojis/ "html 이모지"
