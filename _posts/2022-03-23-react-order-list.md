@@ -16,8 +16,8 @@ tags: [React.js, basic]
 + ### [React 06. 컴포넌트 (Components)][react-component]
 + ### [React 07. 클래스 컴포넌트 (Class Components)][react-class-component]
 + ### [React 08. Props][react-props]
-+ ### [React 09. 이벤트 (Events))][react-events]
-+ ### [React 10. 조건부 렌더링 (Conditional Rendering))][react-conditional]
++ ### [React 09. 이벤트 (Events)][react-events]
++ ### [React 10. 조건부 렌더링 (Conditional Rendering)][react-conditional]
 
 [react-intro]: https://devjiraynor.github.io/2022-03-23-react-intro/ "react 소개"
 [react-start]: https://devjiraynor.github.io/2022-03-23-react-start/ "react 시작하기"
