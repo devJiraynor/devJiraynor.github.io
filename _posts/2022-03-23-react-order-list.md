@@ -14,6 +14,7 @@ tags: [React.js, basic]
 + ### [React 04. HTML 렌더링 (Render HTML)][react-render-html]
 + ### [React 05. JSX][react-jsx]
 + ### [React 06. 컴포넌트 (Components)][react-component]
++ ### [React 07. 클래스 컴포넌트 (Class Components)][react-class-component]
 
 [react-intro]: https://devjiraynor.github.io/2022-03-23-react-intro/ "react 소개"
 [react-start]: https://devjiraynor.github.io/2022-03-23-react-start/ "react 시작하기"
@@ -21,3 +22,4 @@ tags: [React.js, basic]
 [react-render-html]: https://devjiraynor.github.io/2022-03-25-react-render-html/ "react 렌더링"
 [react-jsx]: https://devjiraynor.github.io/2022-03-25-react-jsx/ "react jsx"
 [react-component]: https://devjiraynor.github.io/2022-03-26-react-component/ "react 컴포넌트"
+[react-class-component]: https://devjiraynor.github.io/2022-03-26-react-class-component/ "react 클래스 컴포넌트"
