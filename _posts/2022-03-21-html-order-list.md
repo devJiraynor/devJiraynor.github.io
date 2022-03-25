@@ -47,6 +47,7 @@ tags: [html5, basic]
 + ### [HTML 24. 레이아웃 (Layout)][html-layout]
 + ### [HTML 25. 반응형 웹 디자인 (Responsive Web Design)][html-responsive]
 + ### [HTML 26. 컴퓨터 코드 (Computer Code)][html-computer-code]
++ ### [HTML 27. 시맨틱 (Semantic)][html-semantic]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -87,3 +88,4 @@ tags: [html5, basic]
 [html-layout]: https://devjiraynor.github.io/2022-03-25-html-layout/ "html 레이아웃"
 [html-responsive]: https://devjiraynor.github.io/2022-03-25-html-responsive/ "html 반응형 웹 디자인"
 [html-computer-code]: https://devjiraynor.github.io/2022-03-25-html-computer-code/ "html 컴퓨터 코드"
+[html-semantic]: https://devjiraynor.github.io/2022-03-25-html-semantic/ "html 시맨틱"
