@@ -49,6 +49,7 @@ tags: [html5, basic]
 + ### [HTML 26. 컴퓨터 코드 (Computer Code)][html-computer-code]
 + ### [HTML 27. 시맨틱 (Semantic)][html-semantic]
 + ### [HTML 28. 스타일 가이드 (Style Guide)][html-style-guide]
++ ### [HTML 29. 엔티티 (Entities)][html-entities]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -91,3 +92,4 @@ tags: [html5, basic]
 [html-computer-code]: https://devjiraynor.github.io/2022-03-25-html-computer-code/ "html 컴퓨터 코드"
 [html-semantic]: https://devjiraynor.github.io/2022-03-25-html-semantic/ "html 시맨틱"
 [html-style-guide]: https://devjiraynor.github.io/2022-03-25-html-style-guide/ "html 스타일 가이드"
+[html-entities]: https://devjiraynor.github.io/2022-03-26-html-entities/ "html 엔티티"
