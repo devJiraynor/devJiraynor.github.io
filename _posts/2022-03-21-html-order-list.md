@@ -58,6 +58,7 @@ tags: [html5, basic]
 + ### [HTML 35. 폼 (Form)][html-form]
 + ### [HTML 36. 폼 속성 (Form Attributes)][html-form-attribute]
 + ### [HTML 37. 폼 요소 (Form Elements)][html-form-elements]
++ ### [HTML 38. 인풋 타입 (Input Types)][html-input-type]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -109,3 +110,4 @@ tags: [html5, basic]
 [html-form]: https://devjiraynor.github.io/2022-03-26-html-form/ "html 폼"
 [html-form-attribute]: https://devjiraynor.github.io/2022-03-26-html-form-attribute/ "html 폼 속성"
 [html-form-elements]: https://devjiraynor.github.io/2022-03-26-html-form-elements/ "html 폼 요소"
+[html-input-type]: https://devjiraynor.github.io/2022-03-26-html-input-type/ "html 인풋 타입"
