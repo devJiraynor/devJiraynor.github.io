@@ -330,3 +330,159 @@ tags: [html5, basic]
 {: .box-note}
 이 값은 페이지 내용에서 사용자에게 표시되지 않지만 브라우저의 개발자 도구 또는 "소스 보기" 기능을 사용하여 볼 수 있으며 편집할 수 있습니다. 숨겨진 입력을 보안의 형태로 사용하지 마십시오.
 
+###### 예제 14
+
+```html
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="hidden" id="custId" name="custId" value="3487">
+  <input type="submit" value="Submit">
+</form>
+```
+
+## input type month
+
+```<input type="month">```에서는 월과 연도를 선택할 수 있습니다.
+
+브라우저 지원에 따라 달력 선택기가 입력 필드에 표시될 수 있습니다.
+
+###### 예제 15
+
+```html
+<form>
+  <label for="bdaymonth">Birthday (month and year):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+</form>
+```
+
+## input type number
+
+```<input type="number">```는 숫자 입력 필드를 정의합니다.
+
+허가되는 번호에 제한을 설정할 수도 있습니다.
+
+다음 예제에서는 1 ~5 의 값을 입력할 수 있는 숫자 입력 필드를 표시합니다.
+
+###### 예제 16
+
+```html
+<form>
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+</form>
+```
+
+## input 제한
+
+다음은 일반적인 입력 제한 사항 목록입니다.
+
+| 속성 | 설명 |
+| checked | 페이지가 로드될 때 입력 필드를 미리 선택하도록 지정합니다(type="checkbox" 또는 type="radio"의 경우). |
+| disabled | 입력 필드를 비활성화하도록 지정합니다. |
+| max | 입력 필드의 최대값을 지정합니다. |
+| maxlength | 입력 필드의 최대 문자 수를 지정합니다. |
+| min | 입력 필드의 최소값을 지정합니다. |
+| pattern | 입력 값을 확인할 정규 표현을 지정합니다. |
+| readonly | 입력 필드를 읽기 전용으로 지정합니다(변경할 수 없음). |
+| required | 입력 필드를 입력해야 함을 지정합니다(필수 입력). |
+| size | 입력 필드의 너비(문자 단위)를 지정합니다. |
+| step | 입력 필드의 올바른 번호 간격을 지정합니다. |
+| value | 입력 필드의 기본값을 지정합니다. |
+
+다음은 숫자 입력 필드를 표시하는 예를 나타냅니다. 이 필드에서는 0 ~100 의 값을 10 의 순서로 입력할 수 있습니다. 기본값은 30 입니다.
+
+###### 예제 17
+
+```html
+<form>
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+</form>
+```
+
+## input type range
+
+```<input type="range">```는 정확한 값이 중요하지 않은 숫자(슬라이더 컨트롤 등)를 입력하기 위한 컨트롤을 정의합니다. 기본 범위는 0 ~100 입니다. 단, ```min```, ```max``` 및 ```step``` 속성을 사용하여 허용되는 숫자에 대한 제한을 설정할 수 있습니다.
+
+###### 예제 18
+
+```html
+<form>
+  <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+</form>
+```
+
+## input type search
+
+```<input type="search">```는 검색 필드에 사용됩니다(검색 필드는 일반 텍스트 필드처럼 작동합니다).
+
+###### 예제 20
+
+```html
+<form>
+  <label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+</form>
+```
+
+## input type tel
+
+```<input type="tel">```은 전화번호를 포함해야 하는 입력 필드에 사용됩니다.
+
+###### 예제 21
+
+```html
+<form>
+  <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+</form>
+```
+
+## input type time
+
+```<input type="time">```을 사용하면 사용자가 시간(타임존 없음)을 선택할 수 있습니다.
+
+브라우저 지원에 따라 시간 선택기가 입력 필드에 표시될 수 있습니다.
+
+###### 예제 22
+
+```html
+<form>
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+</form>
+```
+
+## input type url
+
+```<input type="url">```은 URL 주소를 포함해야 하는 입력 필드에 사용됩니다.
+
+브라우저 지원에 따라 url 필드는 전송 시 자동으로 검증될 수 있습니다.
+
+일부 스마트폰은 URL 유형을 인식하여 키보드에 .com을 추가하여 URL 입력과 일치시킵니다.
+
+###### 예제 23
+
+```html
+<form>
+  <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage">
+</form>
+```
+
+## input type week
+
+```<input type="week">``` 를 사용하면 사용자는 요일과 연도를 선택할 수 있습니다.
+
+브라우저 지원에 따라 달력 선택기가 입력 필드에 표시될 수 있습니다.
+
+###### 예제 24
+
+```html
+<form>
+  <label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+</form>
+```
