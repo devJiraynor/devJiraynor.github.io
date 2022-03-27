@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Node.js 영상 목록
-subtitle: Node.js 영상 목록
+title: Node.js 목록
+subtitle: Node.js 목록
 cover-img:
 thumbnail-img:
 share-img:
