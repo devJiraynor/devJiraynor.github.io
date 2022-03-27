@@ -9,7 +9,10 @@ tags: [html5, basic]
 ---
 
 # HTML 기본 예제   
-   
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GYjz6GM1UVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3L22hT8HVFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
 ## HTML 문서   
    
