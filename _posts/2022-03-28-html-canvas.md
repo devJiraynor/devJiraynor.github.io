@@ -197,7 +197,7 @@ ctx.fillRect(10, 10, 150, 80);
 </canvas>
 
 <script>
-var c = document.getElementById("myCanvas");
+var c = document.getElementById("myCanvas6");
 var ctx = c.getContext("2d");
 
 var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
