@@ -44,4 +44,195 @@ HTML ```<canvas>``` 요소는 JavaScript를 통해 그래픽을 즉시 그리기
 
 다음은 기본적인 빈 캔버스의 예를 나타냅니다.
 
-<canvas id="myCanvas" width="200" height="100"></canvas>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+###### 예제 1
+
+```html
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+```
+
+## Javascript 추가
+
+직사각형 캔버스 영역을 작성한 후 그림을 그릴 JavaScript를 추가해야 합니다.
+
+다음은 몇 가지 예입니다.
+
+#### 선 그리기
+
+<canvas id="myCanvas1" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas1");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+</script>
+
+###### 예제 2
+
+```html
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+</script>
+```
+
+#### 원 그리기
+
+<canvas id="myCanvas2" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas2");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+</script>
+
+###### 예제 3
+
+```html
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+</script>
+```
+
+#### 텍스트 그리기
+
+<canvas id="myCanvas3" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas3");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World", 10, 50);
+</script>
+
+###### 예제 4
+
+```html
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World", 10, 50);
+</script>
+```
+
+#### 스트로크 텍스트
+
+<canvas id="myCanvas4" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas4");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World", 10, 50);
+</script>
+
+###### 예제 5
+
+```html
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World", 10, 50);
+</script>
+```
+
+#### 선형 그라데이션 그리기
+
+<canvas id="myCanvas5" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas5");
+var ctx = c.getContext("2d");
+
+var grd = ctx.createLinearGradient(0, 0, 200, 0);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+</script>
+
+###### 예제 6
+
+```html
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// 그라데이션 생성
+var grd = ctx.createLinearGradient(0, 0, 200, 0);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+// 그라데이션 채우기
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+</script>
+```
+
+#### 원형 그라데이션 그리기
+
+<canvas id="myCanvas6" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+</script>
+
+###### 예제 7
+
+```html
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// 그라데이션 생성
+var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+// 그라데이션 채우기
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+</script>
+```
+
+###### 예제 8 - 이미지 그리기
+
+```html
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+var img = document.getElementById("scream");
+ctx.drawImage(img, 10, 10);
+</script>
+```
