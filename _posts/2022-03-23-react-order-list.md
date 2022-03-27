@@ -21,6 +21,9 @@ tags: [React.js, basic]
 + ### [React 11. 리스트 (Lists)][react-list]
 + ### [React 12. 폼 (Form)][react-form]
 + ### [React 13. 라우터 (Router)][react-router]
++ ### [React 14. 메모 (Memo)][react-memo]
++ ### [React 15. CSS 스타일링 (CSS Styling)][react-css]
++ ### [React 16. Sass 스타일링 (Sass Styling)][react-sass]
 
 [react-intro]: https://devjiraynor.github.io/2022-03-23-react-intro/ "react 소개"
 [react-start]: https://devjiraynor.github.io/2022-03-23-react-start/ "react 시작하기"
@@ -35,3 +38,6 @@ tags: [React.js, basic]
 [react-list]: https://devjiraynor.github.io/2022-03-26-react-list/ "react 리스트"
 [react-form]: https://devjiraynor.github.io/2022-03-26-react-form/ "react 폼"
 [react-router]: https://devjiraynor.github.io/2022-03-26-react-router/ "react 라우터"
+[react-memo]: https://devjiraynor.github.io/2022-03-28-react-memo/ "react 메모"
+[react-css]: https://devjiraynor.github.io/2022-03-28-react-css/ "react css 스타일링"
+[react-sass]: https://devjiraynor.github.io/2022-03-28-react-sass/ "react sass 스타일링"
