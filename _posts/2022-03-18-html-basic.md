@@ -12,7 +12,13 @@ tags: [html5, basic]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GYjz6GM1UVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
+<a href="https://youtu.be/GYjz6GM1UVA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 00. 인트로 (Intro)</a><br>
+<br>
+<hr>
+<hr>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3L22hT8HVFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<a href="https://youtu.be/3L22hT8HVFI" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 01. 기본 (basic)</a>
    
 ## HTML 문서   
    
@@ -96,5 +102,3 @@ HTML 이미지는 ```<img>``` 태그로 정의됩니다.
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 ```   
 
-<a href="https://youtu.be/GYjz6GM1UVA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 00. 인트로 (Intro)</a><br>
-<a href="https://youtu.be/3L22hT8HVFI" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 01. 기본 (basic)</a>
