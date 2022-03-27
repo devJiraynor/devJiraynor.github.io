@@ -93,5 +93,5 @@ HTML 이미지는 ```<img>``` 태그로 정의됩니다.
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 ```   
 
-<a href="https://youtu.be/GYjz6GM1UVA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 00. 인트로 (Intro)</a>
+<a href="https://youtu.be/GYjz6GM1UVA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 00. 인트로 (Intro)</a><br>
 <a href="https://youtu.be/3L22hT8HVFI" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 01. 기본 (basic)</a>
