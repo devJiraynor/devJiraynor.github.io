@@ -17,11 +17,11 @@ navbar-links:
   About Me: "aboutme"
   Contents:
     - HTML: "https://devjiraynor.github.io/2022-03-21-html-order-list/"
-    - CSS: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
-    - JavaScript: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
-    - Python: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
+    - CSS: "https://devjiraynor.github.io/2022-03-28-css-order-list/"
+    - JavaScript: "https://devjiraynor.github.io/2022-03-28-js-order-list/"
+    - Python: "https://devjiraynor.github.io/2022-03-28-python-order-list/"
     - React.js: "https://devjiraynor.github.io/2022-03-23-react-order-list/"
-    - Node.js: "https://devjiraynor.github.io/2022-03-24-react-order-list/"
+    - Node.js: "https://devjiraynor.github.io/2022-03-28-node-order-list/"
   Videos:
     - HTML: "https://devjiraynor.github.io/2022-03-27-html-youtube/"
     - etc: "https://devjiraynor.github.io/2022-03-27-etc-youtube/"
