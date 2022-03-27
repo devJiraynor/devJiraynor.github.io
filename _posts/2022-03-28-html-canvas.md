@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 41. 심볼 (Symbols)
+title: HTML 41. 캔버스 (Canvas)
 subtitle: HTML canvas 요소는 웹 페이지에 그래픽을 그리기 위해 사용됩니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
