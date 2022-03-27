@@ -61,6 +61,8 @@ tags: [html5, basic]
 + ### [HTML 38. 인풋 타입 (Input Types)][html-input-type]
 + ### [HTML 39. 인풋 속성 (Input Attribute)][html-input-attribute]
 + ### [HTML 40. input 폼 속성 (Input Form Attribute)][html-input-form-attribute]
++ ### [HTML 41. 캔버스 (Canvas)][html-canvas]
++ ### [HTML 42. SVG][html-svg]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -115,3 +117,5 @@ tags: [html5, basic]
 [html-input-type]: https://devjiraynor.github.io/2022-03-26-html-input-type/ "html 인풋 타입"
 [html-input-attribute]: https://devjiraynor.github.io/2022-03-26-html-input-attribute/ "html 인풋 속성"
 [html-input-form-attribute]: https://devjiraynor.github.io/2022-03-26-html-input-form-attribute/ "html 인풋 폼 속성"
+[html-canvas]: https://devjiraynor.github.io/2022-03-28-html-canvas/ "html 캔버스"
+[html-svg]: https://devjiraynor.github.io/2022-03-28-html-svg/ "html SVG"
