@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 03.속성(Attributes)
+title: HTML 03. 속성 (Attributes)
 subtitle: HTML 속성은 HTML 요소에 대한 추가 정보를 제공합니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
