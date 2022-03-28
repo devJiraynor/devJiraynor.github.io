@@ -8,17 +8,17 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
-# HTML 기본 예제   
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GYjz6GM1UVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GYjz6GM1UVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <a href="https://youtu.be/GYjz6GM1UVA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 00. 인트로 (Intro)</a><br>
 <br>
-<hr>
-<hr>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3L22hT8HVFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 <a href="https://youtu.be/3L22hT8HVFI" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 01. 기본 (basic)</a>
+<br>
+<br>
+
+# HTML 기본 예제   
    
 ## HTML 문서   
    
