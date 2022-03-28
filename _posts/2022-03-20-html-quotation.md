@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 08.인용 및 인용 요소(Quotation and Citation Elements)
+title: HTML 08. 인용 및 인용 요소 (Quotation and Citation Elements)
 subtitle: 이 장에서는 block quote, q, abbr, address, cite 및 bdo HTML 요소에 대해 설명합니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
@@ -12,9 +12,9 @@ tags: [html5, basic]
 
 ## HTML 인용문 ```<blockquote>```
 
-HTML ```<block quote>``` 요소는 다른 소스에서 인용된 섹션을 정의합니다.
+HTML ```<blockquote>``` 요소는 다른 소스에서 인용된 섹션을 정의합니다.
 
-브라우저는 보통 ```<block quote>``` 요소를 들여씁니다.
+브라우저는 보통 ```<blockquote>``` 요소를 들여씁니다.
 
 ###### 예제 1
 
@@ -33,7 +33,7 @@ WWF는 100개국에서 운용되며 다음 지원 대상입니다.
 
 HTML ```<q>``` 태그는 짧은 따옴표를 정의합니다.
 
-브라우저는 보통 따옴표 주위에 따옴표를 삽입합니다.
+브라우저는 보통 따옴표를 삽입합니다.
   
 ###### 예제 2
 
@@ -43,12 +43,12 @@ HTML ```<q>``` 태그는 짧은 따옴표를 정의합니다.
   
 ## HTML 약어 ```<abbr>```
   
-HTML ```<abbr>``` 태그는 "HTML", "CSS", "Mr", "Dr", "ASAP", "ATM" 등의 약어 또는 약어를 정의합니다.
+HTML ```<abbr>``` 태그는 "HTML", "CSS", "Mr", "Dr", "ASAP", "ATM" 등의 두문자어 또는 축약어를 정의합니다.
 
 약어는 브라우저, 번역 시스템 및 검색 엔진에 유용한 정보를 제공할 수 있습니다.
   
 {: .box-note}
-**Tip:** 요소를 마우스로 가리킬 때 약어/아크로닉에 대한 설명을 표시하려면 글로벌 제목 속성을 사용합니다.
+**Tip:** 요소를 마우스로 가리킬 때 약어/두문자어에 대한 설명을 표시하려면 글로벌 title 속성을 사용합니다.
   
 ###### 예제 3
   
