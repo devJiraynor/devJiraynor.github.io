@@ -1,12 +1,18 @@
 ---
 layout: post
-title: HTML 04.헤딩(Heading)
+title: HTML 04. 헤딩 (Heading)
 subtitle: HTML 헤딩(Heading) 웹 페이지에 표시할 제목 또는 자막입니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
 share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IMI2Bb_SjIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/IMI2Bb_SjIU" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 04. 헤딩 (Heading)</a>
+<br>
+<br>
 
 # HTML 헤딩   
    
