@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 10.색상(Colors)
+title: HTML 10. 색상 (Colors)
 subtitle: HTML 의 색상은 미리 정의된 색상 이름 또는 RGB, HEX, HSL, RGBA, 또는 HSLA 의 값으로 지정됩니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
@@ -18,7 +18,7 @@ HTML 에서는 다음의 색명을 사용해 색을 지정할 수 있습니다.
 
 HTML은 [140개의 표준 색상 이름][140_standard_color]을 지원합니다.
 
-[140_standard_color]: https://devjiraynor.github.io/2022-03-18-html-basic/ "140가지 기본 색상"
+[140_standard_color]: https://www.w3schools.com/colors/colors_names.asp/ "140가지 기본 색상"
 
 ## 배경 색상
 
@@ -80,7 +80,7 @@ HTML에서는 RGB 값, HEX 값, HSL 값, RGBA 값 및 HSLA 값을 사용하여 �
   
 ![html_color_05](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_05.PNG?raw=true)
   
-다음 2개의 <div> 요소에는 RGBA 및 HSLA 값을 사용하여 배경색이 설정되어 있습니다.이것에 의해, 색상에 알파 채널이 추가됩니다(여기에서는 투과율이 50%입니다).
+다음 2개의 <div> 요소에는 RGBA 및 HSLA 값을 사용하여 배경색이 설정되어 있습니다. 색상에 알파 채널이 추가됩니다(여기에서는 투과율이 50%입니다).
   
 ![html_color_06](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_colors_06.PNG?raw=true)
   
