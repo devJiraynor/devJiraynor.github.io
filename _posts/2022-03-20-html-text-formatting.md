@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 07.텍스트 형식 지정(Text Formatting)
+title: HTML 07. 텍스트 형식 지정 (Text Formatting)
 subtitle: HTML에는 특별한 의미를 가진 텍스트를 정의하기 위한 몇 가지 요소가 포함되어 있습니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
