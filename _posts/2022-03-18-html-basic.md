@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 01.기본
+title: HTML 01. 기본
 subtitle: 이 장에서는 기본적인 HTML의 예를 몇 가지 소개합니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
