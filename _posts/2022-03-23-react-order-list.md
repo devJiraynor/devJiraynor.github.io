@@ -25,7 +25,7 @@ tags: [React.js, basic]
 + ### [React 15. CSS 스타일링 (CSS Styling)][react-css]
 + ### [React 16. Sass 스타일링 (Sass Styling)][react-sass]
 + ### [React 17. React 후크 (Hooks)][react-hook]
-+ ### [React 18. React useState 후크][react-usestate]
++ ### [React 18. React useState 후크 (useState Hook)][react-usestate]
 + ### [React 19. React useEffect 후크 (useEffect Hook)][react-useeffect]
 + ### [React 20. React useContext 후크 (useContext Hook)][react-usecontext]
 
