@@ -1,13 +1,19 @@
 ---
 layout: post
-title: HTML 05.단락(Paragrap)
+title: HTML 05. 단락 (Paragrap)
 subtitle: HTML 단락은 항상 새 행에서 시작하며 일반적으로 텍스트 블록입니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
 share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
-   
+  
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c7uUhBTR89A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/c7uUhBTR89A" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 05. 단락 (Paragrap)</a>
+<br>
+<br>
+  
 # HTML 단락   
    
 ## HTML 단락   
