@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML 06.스타일(Style)
+title: HTML 06. 스타일 (Style)
 subtitle: HTML 스타일 속성은 색상, 글꼴, 크기 등의 스타일을 요소에 추가하는 데 사용됩니다.
 cover-img: /assets/img/html_img.png
 thumbnail-img: /assets/img/html_thumb.png
