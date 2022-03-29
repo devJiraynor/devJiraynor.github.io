@@ -41,3 +41,55 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 ```
 
+## YouTube 자동 재생 + 음소거
+
+youtube URL에 ```autoplay=1```을 추가해, 사용자가 페이지를 방문했을 때에 자동적으로 동영상 재생을 개시할 수 있습니다만, 동영상 자동 재생은 방문자들이 선호하지 않습니다.
+
+{:. box-note}
+**Note:** 대부분의 경우 크롬 브라우저는 자동 재생을 지원하지 않습니다. 단, 음소거 자동 재생은 항상 허용됩니다.
+
+```autoplay=1``` 뒤에 ```mute=1```을 추가하여 비디오의 자동 재생을 시작합니다(단, 음소거).
+
+###### 예제 2
+
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+</iframe>
+```
+
+## YouTube 재생 목록
+
+재생할 비디오의 쉼표로 구분해서 재생목록을 만들수 있습니다.
+
+## YouTube 반복
+
+비디오를 반복하려면 ```loop=1```을 추가합니다.
+
+값 0(기본값): 1회만 재생됩니다.
+
+값 1: 계속 반복됩니다.
+
+###### 예제 3
+
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+</iframe>
+```
+
+## YouTube 제어
+
+비디오 플레이어에 컨트롤러를 표시하지 않으려면 ```controls=0```을 추가합니다.
+
+값 0: 플레이어 컨트롤러가 표시되지 않습니다.
+
+값 1(디폴트): 플레이어가 디스플레이를 제어합니다.
+
+###### 예제 4
+
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+</iframe>
+```
