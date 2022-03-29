@@ -48,3 +48,25 @@ MP4 포맷은 유튜브에서 추천합니다.
 | Ogg | .ogg | Theora Ogg. Xiph.Org Foundation에서 개발. HTML에서 지원됩니다. |
 | WebM | .webm | WebM. Mozilla, Opera, Adobe 및 Google에 의해 개발. HTML에서 지원됩니다. |
 | MPEG-4 or MP4 | .mp4 | MP4. Moving Pictures Expert Group에 의해 개발. 비디오 카메라 및 TV 하드웨어에 일반적으로 사용됩니다. 모든 브라우저에서 지원되며 YouTube에서 권장됩니다. |
+
+{: .box-note}
+HTML 표준에서는 MP4, WebM 및 Ogg 비디오만 지원됩니다.
+
+## 일반적인 오디오 형식
+
+MP3는 압축된 녹음된 음악에 가장 적합한 형식입니다. MP3라는 용어는 디지털 음악과 동의어가 되었습다.
+
+웹사이트에서 음악을 재생할땐 MP3를 선택할 수 있습니다.
+
+| 형식 | 확장자 | 설명 |
+| MIDI | .mid .midi | MIDI(Musical Instrument Digital Interface) 신시사이저나 PC 사운드 카드등의 모든 전자 음악 디바이스의 메인 포맷. MIDI 파일에는 사운드가 포함되어 있지 않지만 전자제품에서 재생할 수 있는 디지털 노트가 포함되어 있습니다. 모든 컴퓨터와 음악 하드웨어에서 잘 재생되지만 웹 브라우저에서는 잘 재생되지 않습니다. |
+| RealAudio | .rm .ram | RealAudio. 저대역폭 오디오 스트리밍을 가능하게 하기 위해 Real Media에서 개발. 웹 브라우저에서는 재생되지 않습니다. |
+| WMA | .wma | WMA(Windows Media Audio). Microsoft가 개발. Windows 컴퓨터에서는 잘 재생되지만 웹 브라우저에서는 잘 재생되지 않습니다. |
+| AAC | .aac | AAC(Advanced Audio Coding). iTunes 기본 포맷으로 Apple에서 개발. Apple 컴퓨터에서는 잘 재생되지만 웹 브라우저에서는 잘 재생되지 않습니다. |
+| WAV | .wav | WAV. IBM과 Microsoft가 개발. Windows, Macintosh 및 Linux 운영 체제에서 잘 작동합니다. HTML에서 지원됩니다. |
+| Ogg | .ogg | Ogg. Xiph.Org Foundation에서 개발. HTML에서 지원됩니다. |
+| MP3 | .mp3 | MP3 파일은 실제로 MPEG 파일의 사운드 부분입니다. MP3는 음악 플레이어들에게 가장 인기 있는 형식이다. 뛰어난 압축성(작은 파일)과 고품질을 겸비합니다. 모든 브라우저에서 지원됩니다. |
+| MP4 | .mp4 | MP4는 비디오 형식이지만 오디오에도 사용할 수 있습니다. 모든 브라우저에서 지원됩니다. |
+
+{: .box-note}
+HTML 표준에서는 MP3, WAV 및 Ogg 오디오만 지원됩니다.
