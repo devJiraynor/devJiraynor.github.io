@@ -31,6 +31,8 @@ tags: [React.js, basic]
 + ### [React 21. React useRef 후크 (useRef Hook)][react-useref]
 + ### [React 22. React useReducer 후크 (useReducer Hook)][react-usereducer]
 + ### [React 23. React useCallback 후크 (useCallback Hook)][react-usecallback]
++ ### [React 24. React useMemo 후크 (useMemo Hook)][react-usememo]
++ ### [React 25. React 커스텀 후크 (Custom Hook)][react-custom-hook]
 
 [react-intro]: https://devjiraynor.github.io/2022-03-23-react-intro/ "react 소개"
 [react-start]: https://devjiraynor.github.io/2022-03-23-react-start/ "react 시작하기"
@@ -55,3 +57,5 @@ tags: [React.js, basic]
 [react-useref]: https://devjiraynor.github.io/2022-03-29-react-useref/ "react useRef"
 [react-usereducer]: https://devjiraynor.github.io/2022-03-29-react-usereducer/ "react useReducer"
 [react-usecallback]: https://devjiraynor.github.io/2022-03-29-react-usecallback/ "react useCallback"
+[react-usememo]: https://devjiraynor.github.io/2022-03-30-react-usememo/ "react useMemo"
+[react-custom-hook]: https://devjiraynor.github.io/2022-03-30-react-custom-hook/ "react 커스텀 후크"
