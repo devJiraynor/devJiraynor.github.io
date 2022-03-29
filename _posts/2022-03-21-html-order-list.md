@@ -67,6 +67,11 @@ tags: [html5, basic]
 + ### [HTML 44. 비디오 (Video)][html-video]
 + ### [HTML 45. 오디오 (Audio)][html-audio]
 + ### [HTML 46. 유튜브 (YouTube Video)][html-youtube-video]
++ ### [HTML 47. 지리 위치 API (Geolocation API)][html-geoloaction]
++ ### [HTML 48. 드래그 앤 드롭 API (Drag and Drop API)][html-drag-drop]
++ ### [HTML 49. 웹 스토리지 API (Web Storage API)][html-web-storage]
++ ### [HTML 50. 웹 워커 API (Web Workers API)][html-web-worker]
++ ### [HTML 51. SSE API (Server-Sent Event API)][html-sse]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -127,3 +132,8 @@ tags: [html5, basic]
 [html-video]: https://devjiraynor.github.io/2022-03-29-html-video/ "html 비디오"
 [html-audio]: https://devjiraynor.github.io/2022-03-29-html-audio/ "html 오디오"
 [html-youtube-video]: https://devjiraynor.github.io/2022-03-29-html-youtube-video/ "html 유튜브"
+[html-geoloaction]: https://devjiraynor.github.io/2022-03-30-html-geoloaction/ "html 지리 위치"
+[html-drag-drop]: https://devjiraynor.github.io/2022-03-30-html-audrag-dropdio/ "html 드래그 앤 드롭"
+[html-web-storage]: https://devjiraynor.github.io/2022-03-30-html-web-storage/ "html 웹 스토리지"
+[html-web-worker]: https://devjiraynor.github.io/2022-03-29-html-web-worker/ "html 웹 "
+[html-sse]: https://devjiraynor.github.io/2022-03-30-html-sse/ "html sse"
