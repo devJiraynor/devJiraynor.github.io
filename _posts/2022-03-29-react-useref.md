@@ -98,7 +98,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ###### 예제 - 이전 state 값을 추적하려면 ```useRef```를 사용합니다.
 
-```javascrip
+```javascript
 import { useState, useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 
