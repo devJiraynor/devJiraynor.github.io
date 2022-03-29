@@ -69,3 +69,40 @@ localStorage.lastname = "Smith";
 // Retrieve
 document.getElementById("result").innerHTML = localStorage.lastname;
 ```
+
+"lastname"을 ```localStorage```에서 삭제하는 구문은 다음과 같습니다.
+
+```javascript
+localStorage.removeItem("lastname");
+```
+
+{: .box-note}
+이름/값 쌍은 항상 문자열로 저장됩니다. 필요할 때 다른 형식으로 변환해야 합니다.
+
+다음 예제에서는 사용자가 버튼을 클릭한 횟수를 카운트합니다. 이 코드에서는 카운터를 늘릴 수 있도록 값 문자열이 숫자로 변환됩니다.
+
+```javascript
+if (localStorage.clickcount) {
+  localStorage.clickcount = Number(localStorage.clickcount) + 1;
+} else {
+  localStorage.clickcount = 1;
+}
+document.getElementById("result").innerHTML = "You have clicked the button " +
+localStorage.clickcount + " time(s).";
+```
+
+## ```sessionStorage``` 객체
+
+```sessionStorage``` 객체는 ```localStorage``` 객체와 동일하지만 한 세션의 데이터만 저장합니다. 사용자가 특정 브라우저 탭을 닫으면 데이터가 삭제됩니다.
+
+다음 예제에서는 현재 세션에서 사용자가 버튼을 클릭한 횟수를 카운트합니다.
+
+```javascript
+if (sessionStorage.clickcount) {
+  sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+} else {
+  sessionStorage.clickcount = 1;
+}
+document.getElementById("result").innerHTML = "You have clicked the button " +
+sessionStorage.clickcount + " time(s) in this session.";
+```
