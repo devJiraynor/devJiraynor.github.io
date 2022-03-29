@@ -68,7 +68,7 @@ getCurrentPosition() 메서드의 두 번째 파라미터는 오류 처리에 �
 
 ###### 예제 2
 
-```html
+```javascript
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
