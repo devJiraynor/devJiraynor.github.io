@@ -63,6 +63,10 @@ tags: [html5, basic]
 + ### [HTML 40. input 폼 속성 (Input Form Attribute)][html-input-form-attribute]
 + ### [HTML 41. 캔버스 (Canvas)][html-canvas]
 + ### [HTML 42. SVG][html-svg]
++ ### [HTML 43. 멀티미디어 (Multimedia)][html-media]
++ ### [HTML 44. 비디오 (Video)][html-video]
++ ### [HTML 45. 오디오 (Audio)][html-audio]
++ ### [HTML 46. 유튜브 (YouTube Video)][html-youtube-video]
 
 [html-basic]: https://devjiraynor.github.io/2022-03-18-html-basic/ "html 기본"
 [html-elements]: https://devjiraynor.github.io/2022-03-19-html-elements/ "html 요소"
@@ -119,3 +123,7 @@ tags: [html5, basic]
 [html-input-form-attribute]: https://devjiraynor.github.io/2022-03-26-html-input-form-attribute/ "html 인풋 폼 속성"
 [html-canvas]: https://devjiraynor.github.io/2022-03-28-html-canvas/ "html 캔버스"
 [html-svg]: https://devjiraynor.github.io/2022-03-28-html-svg/ "html SVG"
+[html-media]: https://devjiraynor.github.io/2022-03-29-html-media/ "html "
+[html-video]: https://devjiraynor.github.io/2022-03-29-html-video/ "html 비디오"
+[html-audio]: https://devjiraynor.github.io/2022-03-29-html-audio/ "html 오디오"
+[html-youtube-video]: https://devjiraynor.github.io/2022-03-29-html-youtube-video/ "html 유튜브"
