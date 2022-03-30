@@ -20,7 +20,7 @@ tags: [html5, basic]
 
 ###### 예제 1
 
-```html
+```css
 table, th, td {
   border: 1px solid black;
 }
@@ -28,7 +28,7 @@ table, th, td {
 
 ## Collapsed 테이블 테두리
 
-위의 예시와 같이 이중 테두리가 생기지 않도록 CSS border-collapse 속성을 collapse로 설정합니다.
+위의 예시와 같이 이중 테두리가 생기지 않도록 CSS ```border-collapse``` 속성을 ```collapse```로 설정합니다.
 
 이렇게 하면 테두리가 단일 테두리로 축소됩니다.
 
@@ -36,7 +36,7 @@ table, th, td {
 
 ###### 예제 2
 
-```html
+```css
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -51,7 +51,7 @@ table, th, td {
 
 ###### 예제 3
 
-```html
+```css
 table, th, td {
   border: 1px solid white;
   border-collapse: collapse;
@@ -82,7 +82,7 @@ css 셀렉터에서 테이블을 생략하면 테이블 주위의 경계를 건�
 
 ###### 예제 5
 
-```html
+```css
 th, td {
   border: 1px solid black;
   border-radius: 10px;
@@ -101,7 +101,7 @@ th, td {
 
 ###### 예제 6
 
-```html
+```css
 th, td {
   border-style: dotted;
 }
@@ -115,7 +115,7 @@ th, td {
 
 ###### 예제 7
 
-```html
+```css
 th, td {
   border-color: #96D4D4;
 }
