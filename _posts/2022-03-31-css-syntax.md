@@ -5,7 +5,7 @@ subtitle: CSS 규칙은 셀렉터와 선언 블록으로 구성됩니다.
 cover-img: /assets/img/css_img.png
 thumbnail-img: /assets/img/css_thumb.png
 share-img: /assets/img/css_img.png
-tags: [React.js, basic]
+tags: [css3, basic]
 ---
 
 # CSS 구문 
