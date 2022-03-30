@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kq22wkoT3eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/kq22wkoT3eQ" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 13. 이미지 (Images)</a>
+<br>
+<br>
+
 # HTML 이미지
 
 ## HTML 이미지 구문
