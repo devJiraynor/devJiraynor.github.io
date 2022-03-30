@@ -61,4 +61,4 @@ tags: [html5, basic]
 ```
 
 {: .box-note}
-**Note:** ```colspan``` 속성 값은 걸칠 행의 수를 나타냅니다.
+**Note:** ```rowspan``` 속성 값은 걸칠 행의 수를 나타냅니다.
