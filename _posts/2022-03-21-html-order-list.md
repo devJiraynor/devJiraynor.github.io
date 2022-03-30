@@ -93,7 +93,7 @@ tags: [html5, basic]
 [html-tables]: https://devjiraynor.github.io/2022-03-23-html-tables/ "html 테이블"
 [html-table-borders]: https://devjiraynor.github.io/2022-03-23-html-table-borders/ "html 테이블 테두리"
 [html-table-sizes]: https://devjiraynor.github.io/2022-03-23-html-table-sizes/ "html 테이블 사이즈"
-[html-table-headers]: https://devjiraynor.github.io/2022-03-23-html-table-headers/ "html 테이블 헤더"
+[html-table-headers]: https://devjiraynor.github.io/2022-03-23-html-table-header/ "html 테이블 헤더"
 [html-table-padding-spacing]: https://devjiraynor.github.io/2022-03-23-html-table-padding-spacing/ "html 테이블 패딩 및 스페이싱"
 [html-table-colspan-rowspan]: https://devjiraynor.github.io/2022-03-23-html-table-colspan-rowspan/ "html 테이블 colspan 및 rowspan"
 [html-table-styling]: https://devjiraynor.github.io/2022-03-23-html-table-styling/ "HTML 테이블 스타일링"
