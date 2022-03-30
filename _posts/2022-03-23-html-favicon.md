@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_MuY7JWFM8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/_MuY7JWFM8o" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 14. 파비콘 (Favicon)</a>
+<br>
+<br>
+
 # HTML 파비콘
 
 ## HTML에서 Favicon을 추가하는 방법
