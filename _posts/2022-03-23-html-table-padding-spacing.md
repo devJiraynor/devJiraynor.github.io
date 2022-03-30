@@ -20,7 +20,7 @@ tags: [html5, basic]
 
 ###### 예제 1
 
-```html
+```css
 th, td {
   padding: 15px;
 }
@@ -32,7 +32,7 @@ th, td {
 
 ###### 예제 2
 
-```html
+```css
 th, td {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -51,7 +51,7 @@ th, td {
 
 ###### 예제 3
 
-```html
+```css
 table {
   border-spacing: 30px;
 }
