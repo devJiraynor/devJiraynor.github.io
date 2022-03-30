@@ -60,8 +60,7 @@ HTML 의 인라인 요소는 다음과 같습니다.
 ```<label>``` ```<map>``` ```<object>``` ```<output>```
 ```<q>``` ```<samp>``` ```<script>``` ```<select>```
 ```<small>``` ```<span>``` ```<strong>``` ```<sub>```
-```<sup>``` ```<textarea>``` ```<time>``` ```<tt>``` 
-```<var>```
+```<sup>``` ```<textarea>``` ```<time>``` ```<tt>``` ```<var>```
 
 {: .box-note}
 **Note:** 인라인 요소는 블록 수준 요소를 포함할 수 없습니다!
