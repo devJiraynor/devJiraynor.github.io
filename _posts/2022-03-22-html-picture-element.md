@@ -8,9 +8,9 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
   
-# HTML <picture> 요소
+# HTML ```<picture>``` 요소
   
-## HTML <picture> 요소
+## HTML ```<picture>``` 요소
   
 HTML ```<picture>``` 요소를 사용하면 웹 개발자는 이미지 리소스를 보다 유연하게 지정할 수 있습니다.
 
