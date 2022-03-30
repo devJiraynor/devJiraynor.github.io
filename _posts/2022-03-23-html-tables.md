@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VBS_usGtx8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/VBS_usGtx8w" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 15. 테이블 (Tables)</a>
+<br>
+<br>
+
 # HTML 테이블
 
 ## HTML 테이블 정의
