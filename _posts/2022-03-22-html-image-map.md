@@ -24,9 +24,9 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 <img src="html_image_map_01.jpg" alt="Workplace" usemap="#workmap">
 
 <map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.html">
 </map>
 ```
 
@@ -76,7 +76,7 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 + ```poly``` - 다각형 영역을 정의합니다.
 + ```default``` - 지역 전체를 정의합니다.
 
-또한 클릭 가능한 영역을 영상에 배치할 수 있도록 몇 가지 좌표를 정의해야 합니다.
+또한 클릭 가능한 영역을 이미지에 배치할 수 있도록 몇 가지 좌표를 정의해야 합니다.
 
 ##### Shape="rect"
 
@@ -96,7 +96,7 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 <area shape="rect" coords="34, 44, 270, 350" href="computer.htm">
 ```
 
-이 영역은 클릭할 수 있게 되어 사용자를 "computer.htm" 페이지로 보냅니다.
+이 영역은 클릭할 수 있게 되어 사용자를 "computer.html" 페이지로 보냅니다.
 
 ![html-image-maps-04](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_04.PNG?raw=true)
 
@@ -120,7 +120,7 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 <area shape="circle" coords="337, 300, 44" href="coffee.htm">
 ```
 
-이 영역은 클릭할 수 있게 되어 사용자를 "coffee.htm" 페이지로 보냅니다.
+이 영역은 클릭할 수 있게 되어 사용자를 "coffee.html" 페이지로 보냅니다.
 
 ![html-image-maps-07](https://github.com/devJiraynor/devJiraynor.github.io/blob/master/assets/img/html/html_image_map_07.PNG?raw=true)
 
@@ -129,8 +129,6 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 ```shape="poly"``` 에는 직선(폴리곤)으로 형성된 모양을 만드는 여러 개의 좌표 점이 포함되어 있습니다.
 
 모든 모양을 만드는 데 사용할 수 있습니다.
-
-크루아상처럼!
 
 아래 이미지의 크루아상을 클릭 가능한 링크로 만들려면 어떻게 해야 할까요?
 
@@ -156,11 +154,11 @@ HTML ```<map>``` 태그는 이미지 맵을 정의합니다. 이미지 맵은 �
 
 ```click``` 이벤트를 ```<area>``` 요소에 추가하여 JavaScript 함수를 실행합니다.
 
-###### 예제 (여기서는 영역을 클릭했을 때 onclick 속성을 사용하여 JavaScript 함수를 실행합니다.)
+###### 예제 (영역을 클릭했을 때 onclick 속성을 사용하여 JavaScript 함수를 실행합니다.)
 
 ```html
 <map name="workmap">
-  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+  <area shape="circle" coords="337,300,44" href="coffee.html" onclick="myFunction()">
 </map>
 
 <script>
