@@ -20,7 +20,7 @@ tags: [html5, basic]
 
 ###### 예제 1
 
-```html
+```css
 tr:nth-child(even) {
   background-color: #D6EEEE;
 }
@@ -39,7 +39,7 @@ tr:nth-child(even) {
 
 ###### 예제 2
 
-```html
+```css
 td:nth-child(even), th:nth-child(even) {
   background-color: #D6EEEE;
 }
@@ -60,7 +60,7 @@ td:nth-child(even), th:nth-child(even) {
 
 ###### 예제 3
 
-```html
+```css
 tr:nth-child(even) {
   background-color: rgba(150, 212, 212, 0.4);
 }
@@ -80,7 +80,7 @@ th:nth-child(even),td:nth-child(even) {
 
 ###### 예제 4
 
-```html
+```css
 tr {
   border-bottom: 1px solid #ddd;
 }
@@ -94,7 +94,7 @@ tr {
 
 ###### 예제 5
 
-```html
+```css
 tr:hover {background-color: #D6EEEE;}
 ```
 
