@@ -72,7 +72,7 @@ tags: [html5, basic]
 
 ###### 예제 3
 
-```html
+```css
 th {
   text-align: left;
 }
