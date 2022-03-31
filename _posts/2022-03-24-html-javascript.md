@@ -20,7 +20,7 @@ JavaScript의 일반적인 용도는 이미지 조작, 폼 검증 및 콘텐츠�
 
 HTML 요소를 선택하기 위해 JavaScript는 ```document.getElementById()``` 메서드를 가장 많이 사용합니다.
 
-다음 JavaScript 예제에서는 "Hello JavaScript!"를 id="http"인 HTML 요소에 씁니다.
+다음 JavaScript 예제에서는 "Hello JavaScript!"를 id="demo"인 HTML 요소에 씁니다.
 
 ###### 예제 1
 
