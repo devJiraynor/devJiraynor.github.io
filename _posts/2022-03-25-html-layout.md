@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0KgAJ6CgwcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/0KgAJ6CgwcA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 24. 레이아웃 (Layout)</a>
+<br>
+<br>
+
 # HTML 레이아웃 
 
 ## HTML 레이아웃 요소
