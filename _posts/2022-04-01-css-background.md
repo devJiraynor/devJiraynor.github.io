@@ -170,3 +170,62 @@ body {
   background-position: right top;
 }
 ```
+
+## background-attachment
+
+```background-attachment``` 속성은 배경 이미지를 스크롤할지 고정할지 지정합니다.
+
+###### 예제 11 - 배경 이미지를 고정하도록 지정합니다.
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+```
+
+###### 예제 12 - 배경 이미지가 페이지의 나머지 부분과 함께 스크롤되도록 지정합니다.
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+```
+
+## background - 축약 속성
+
+코드를 단축하기 위해 단일 속성의 모든 배경 속성을 지정할 수도 있습니다. 이를 축약(shorthand) 속성이라고 합니다.
+
+```css
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
+
+위의 코드와 같은 축약 속성 ```background```를 사용할 수 있습니다.
+
+###### 예제 13
+
+```css
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+```
+
+축약 속성을 사용하는 경우 속성 값의 순서는 다음과 같습니다.
+
++ ```background-color```
++ ```background-image```
++ ```background-repeat```
++ ```background-attachment```
++ ```background-position```
+
+속성 값 중 하나가 누락되어도 상관없습니다. 다른 값이 이 순서로 나열되어 있으면 됩니다. 위의 예에서는 ```background-attachment``` 속성은 값이 없기 때문에 사용하지 않습니다.
