@@ -160,3 +160,106 @@ let person = "John Doe";
 let answer = 'Yes I am!';
 ```
 
+## JavaScript 변수 선언
+
+JavaScript에서 변수를 만드는 것을 변수 선언이라고 합니다.
+
+JavaScript 변수는 ```var``` 또는 ```let``` 키워드를 사용하여 선언합니다.
+
+```javascript
+var carName;
+```
+
+또는
+
+```javascript
+let carName;
+```
+
+선언 후 변수는 값을 갖지 않습니다(```undefined``` 상태).
+
+변수에 값을 **할당**하려면 등호를 사용합니다.
+
+```javascript
+carName = 'Volvo';
+```
+
+변수를 선언할 때 변수에 값을 할당할 수도 있습니다.
+
+```javascript
+let carName = 'Volvo';
+```
+
+다음 예제에서는 ```carName```이라는 변수를 만들고 "Volvo" 값을 할당합니다.
+
+그런 다음 id="demo"로 HTML 단락 내의 값을 "출력"합니다.
+
+###### 예제 6
+
+```html
+<p id="demo"></p>
+
+<script>
+let carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script>
+```
+
+{: .box-note}
+**Note:** 스크립트 시작 부분에서 모든 변수를 선언하는 것이 좋습니다.
+
+## 하나의 문장으로 여러 변수 선언
+
+하나의 문장에 여러 변수를 선언할 수 있습니다.
+
+문장을 ```let```으로 시작하고 변수를 ```,```로 구분합니다.
+
+###### 예제 7
+
+```javascript
+let person = "John Doe", carName = "Volvo", price = 200;
+```
+
+선언은 여러 행에 걸쳐 있을 수 있습니다.
+
+###### 예제 8
+
+```javascript
+let person = "John Doe",
+carName = "Volvo",
+price = 200;
+```
+
+## 값 = ```undefined```
+
+컴퓨터 프로그램에서는 변수가 값 없이 선언되는 경우가 많습니다. 값은 계산해야 하는 값일 수도 있고 사용자 입력과 같이 나중에 제공될 값일 수도 있습니다.
+
+값을 지정하지 않고 선언된 변수는 값을 ```undefined```라 합니다.
+
+변수 ```carName```은 다음 문장 실행 후 값은 ```undefined``` 입니다.
+
+###### 예제 9
+
+```javascript
+let carName;
+```
+
+## JavaScript 변수 재선언
+
+```var```로 선언된 JavaScript 변수를 다시 선언해도 값이 손실되지 않습니다.
+
+변수 ```carName```은 다음 문을 실행한 후에도 값 "Volvo"를 유지합니다.
+
+###### 예제 10
+
+```javascript
+var carName = "Volvo";
+var carName;
+```
+
+{: .box-note}
+**Note:** let 또는 const로 선언된 변수는 다시 선언할 수 없습니다.<br>```javascript 
+let carName = "Volvo";
+let carName;
+```
+
