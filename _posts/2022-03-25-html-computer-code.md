@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8dFGvMRk5-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/8dFGvMRk5-E" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 26. 컴퓨터 코드 (Computer Code)</a>
+<br>
+<br>
+
 # HTML 컴퓨터 코드 요소
 
 ## HTML 키보드 입력 ```<kbd>``` 요소
