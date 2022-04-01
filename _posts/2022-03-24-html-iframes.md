@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-WSILrLz0h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/-WSILrLz0h4" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 20. 아이프레임 (Iframe)</a>
+<br>
+<br>
+
 # HTML 아이프레임(Iframe)
 
 ## HTML 아이프레임 rnans
