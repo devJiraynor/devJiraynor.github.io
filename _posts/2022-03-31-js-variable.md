@@ -258,11 +258,7 @@ var carName;
 ```
 
 {: .box-note}
-**Note:** let 또는 const로 선언된 변수는 다시 선언할 수 없습니다.<br>
-```javascript 
-let carName = "Volvo";
-let carName;
-```
+**Note:** let 또는 const로 선언된 변수는 다시 선언할 수 없습니다.
 
 ## JavaScript 산술
 
