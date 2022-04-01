@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aKpRtA4aS7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/aKpRtA4aS7o" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 18. 클래스 (class)</a>
+<br>
+<br>
+
 # HTML class 속성
 
 ## class 속성 사용
