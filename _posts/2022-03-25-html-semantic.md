@@ -8,6 +8,12 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fuLekp9NhKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/fuLekp9NhKU" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 27. 시맨틱 (Semantic)</a>
+<br>
+<br>
+
 # HTML 시맨틱 요소
 
 ## 시맨틱 요소란?
