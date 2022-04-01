@@ -258,8 +258,75 @@ var carName;
 ```
 
 {: .box-note}
-**Note:** let 또는 const로 선언된 변수는 다시 선언할 수 없습니다.<br>```javascript 
+**Note:** let 또는 const로 선언된 변수는 다시 선언할 수 없습니다.<br>
+```javascript 
 let carName = "Volvo";
 let carName;
 ```
 
+## JavaScript 산술
+
+대수학과 마찬가지로 ```=``` 및 ```+``` 와 같은 연산자를 사용하여 JavaScript 변수를 사용하여 산술할 수 있습니다.
+
+###### 예제 11
+
+```javascript
+let x = 5 + 2 + 3;
+```
+
+문자열을 더할할 수도 있지만 문자열은 연결됩니다.
+
+###### 예제 12
+
+```javascript
+let x = "John" + " " + "Doe";
+```
+
+아래 문장을 실행해보세요.
+
+###### 예제 13
+
+```javascript
+let x = "5" + 2 + 3;
+```
+
+{: .box-note}
+**Note:** 따옴표 안에 숫자를 넣으면 나머지 숫자는 문자열로 처리되어 연결됩니다.
+
+아래 문장을 실행해보세요.
+
+###### 예제 14
+
+```javascript
+let x = 2 + 3 + "5";
+```
+
+## JavaScript 달러 기호 ```$```
+
+JavaScript는 ```$``` 기호를 문자로 취급하므로 ```$```를 포함하는 식별자는 유효한 변수 이름입니다.
+
+###### 예제 15
+
+```javascript
+let $ = "Hello World";
+let $$$ = 2;
+let $myMoney = 5;
+```
+
+달러 기호를 사용하는 것은 JavaScript에서는 그다지 흔하지 않지만 전문 프로그래머들은 종종 자바스크립트 라이브러리의 주요 함수의 별칭으로 사용합니다.
+
+예를 들어 JavaScript 라이브러리 jQuery에서는 HTML 요소를 선택하기 위해 주요 함수 ```$```가 사용됩니다. jQuery ```$("p");```는 "모든 p 요소 선택"을 의미합니다.
+
+## JavaScript 밑줄 ```_```
+
+JavaScript는 밑줄을 문자로 처리하므로 ```_```를 포함하는 식별자는 다음과 같은 유효한 변수 이름입니다.
+
+###### 예제 16
+
+```javascript
+let _lastName = "Johnson";
+let _x = 2;
+let _100 = 5;
+```
+
+JavaScript에서는 언더스코어를 사용하는 것이 일반적이지 않지만 전문 프로그래머들 사이에서는 이를 "private(hidden)" 변수의 별칭으로 사용하는 것이 관례입니다.
