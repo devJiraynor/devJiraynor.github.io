@@ -25,7 +25,7 @@ HTML 에서는 다음의 색명을 사용해 색을 지정할 수 있습니다.
 
 HTML은 [140개의 표준 색상 이름][140_standard_color]을 지원합니다.
 
-[140_standard_color]: https://www.w3schools.com/colors/colors_names.asp/ "140가지 기본 색상"
+[140_standard_color]: https://www.w3schools.com/colors/colors_names.asp "140가지 기본 색상"
 
 ## 배경 색상
 
