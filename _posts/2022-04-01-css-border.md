@@ -357,4 +357,4 @@ p {
 
 결과 : 
 
-<p style="border: 2px solid red; border-radius: 5px;">둥근 </p>
+<p style="border: 2px solid red; border-radius: 5px;">둥근 테두리</p>
