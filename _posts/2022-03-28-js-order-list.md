@@ -31,7 +31,7 @@ tags: [javascript, basic]
 [js-comment]: https://devjiraynor.github.io/2022-03-31-js-comment/ "js 주석"
 [js-variable]: https://devjiraynor.github.io/2022-03-31-js-variable/ "js 변수"
 [js-let]: https://devjiraynor.github.io/2022-03-31-js-let/ "js let"
-[js-const]: https://devjiraynor.github.io/2022-03-31-js-comment/ "js const"
+[js-const]: https://devjiraynor.github.io/2022-03-31-js-const/ "js const"
 [js-operator]: https://devjiraynor.github.io/2022-04-02-js-operator/ "js 연산자"
 [js-arthmetic]: https://devjiraynor.github.io/2022-04-02-js-arthmetic/ "js 산술 연산자"
 [js-assignment]: https://devjiraynor.github.io/2022-04-02-js-assignment/ "js 할당 연산자"
