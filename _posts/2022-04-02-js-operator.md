@@ -130,7 +130,7 @@ let z = "Hello" + 5;
 
 결과 : 
 
-<sap>10<br>55<br>Hello5</samp>
+<samp>10<br>55<br>Hello5</samp>
  
 {: .box-note}
 숫자와 문자열을 추가하면 문자열이 됩니다!
