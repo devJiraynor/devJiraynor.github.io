@@ -1,0 +1,88 @@
+---
+layout: post
+title: CSS 08. Margin
+subtitle: margin은 정의된 테두리 밖에서 요소 주위에 공간을 만드는 데 사용됩니다.
+cover-img: /assets/img/css_img.png
+thumbnail-img: /assets/img/css_thumb.png
+share-img: /assets/img/css_img.png
+tags: [css3, basic]
+---
+
+# CSS Margin
+
+## margin
+
+CSS ```margin``` 속성은 정의된 테두리 외부에 요소 주위의 여백을 작성하기 위해 사용됩니다.
+
+CSS를 사용하면 margin을 완전히 제어할 수 있습니다. 요소의 각 변(위, 오른쪽, 아래 및 왼쪽)에 대한 여백을 설정하는 속성이 있습니다.
+
+## margin - 각 측면
+
+CSS에는 요소의 각 측면에 대한 여백을 지정하는 속성이 있습니다.
+
++ ```margin-top```
++ ```margin-right```
++ ```margin-bottom```
++ ```margin-left```
+
+모든 ```margin``` 속성은 다음 값을 가질 수 있습니다.
+
++ auto - 브라우저가 여백을 계산합니다.
++ length - px, pt, cm 등의 여백을 지정합니다.
++ % - 포함 요소 폭의 % 단위로 여백을 지정합니다.
++ inherit - 부모 요소에서 여백을 상속하도록 지정합니다.
+
+**Tip:** 음수 값을 사용할 수 있습니다.
+
+###### 예제 1
+
+```css
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+```
+
+## margin - 축약 속성
+
+코드를 단축하기 위해 하나의 속성에서 모든 여백 속성을 지정할 수 있습니다.
+
+```margin``` 속성은 다음과 같은 개별 ```margin``` 속성에 대한 줄임말 속성입니다.
+
++ ```margin-top```
++ ```margin-right```
++ ```margin-bottom```
++ ```margin-left```
+
+동작은 다음과 같습니다.
+
+```margin``` 속성에 4개의 값이 있는 경우:
+
++ **margin: 25px 50px 75px 100px;**
+- 상단여백 25px
+- 우측여백 50px
+- 하단여백 75px
+- 왼쪽여백 100px
+
+###### 예제 2
+
+```css
+p {
+  margin: 25px 50px 75px 100px;
+}
+```
+
+```margin``` 속성에 3개의 값이 있는 경우:
+
++ **margin: 25px 50px 75px;**
+- 상단여백 25px
+- 좌우여백 50px
+- 하단여백 75px
+
+```css
+p {
+  margin: 25px 50px 75px;
+}
+```
