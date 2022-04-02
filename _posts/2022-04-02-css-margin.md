@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS 08. Margin
+title: CSS 09. Margin
 subtitle: margin은 정의된 테두리 밖에서 요소 주위에 공간을 만드는 데 사용됩니다.
 cover-img: /assets/img/css_img.png
 thumbnail-img: /assets/img/css_thumb.png
@@ -81,6 +81,8 @@ p {
 - 좌우여백 50px
 - 하단여백 75px
 
+###### 예제 3
+
 ```css
 p {
   margin: 25px 50px 75px;
@@ -93,6 +95,8 @@ p {
 - 상하여백 25px
 - 좌우여백 50px
 
+###### 예제 4
+
 ```css
 p {
   margin: 25px 50px;
@@ -103,6 +107,8 @@ p {
 
 + **margin: 25px;**
 - 전체여백 25px
+
+###### 예제 5
 
 ```css
 p {
@@ -116,7 +122,7 @@ p {
 
 그러면 요소가 지정된 너비를 차지하고 나머지 공간은 왼쪽과 오른쪽 여백으로 균등하게 분할됩니다.
 
-###### 예제 2
+###### 예제 6
 
 ```css
 div {
@@ -130,7 +136,7 @@ div {
 
 다음 예제에서는 ```<p class="ex1">``` 요소의 왼쪽 여백을 부모 요소(```<div>```)에서 상속할 수 있습니다.
 
-###### 예제 3
+###### 예제 7
 
 ```css
 div {
@@ -149,7 +155,7 @@ p.ex1 {
 
 이것은 좌우 여백에 발생하지 않습니다.
 
-###### 예제 4
+###### 예제 8
 
 ```css
 h1 {
