@@ -27,4 +27,4 @@ tags: [javascript, basic]
 [js-comment]: https://devjiraynor.github.io/2022-03-31-js-comment/ "js 주석"
 [js-variable]: https://devjiraynor.github.io/2022-03-31-js-variable/ "js 변수"
 [js-let]: https://devjiraynor.github.io/2022-03-31-js-let/ "js let"
-[js-const]: https://devjiraynor.github.io/2022-03-31-js-comment/ "js 주석"
+[js-const]: https://devjiraynor.github.io/2022-03-31-js-comment/ "js const"
