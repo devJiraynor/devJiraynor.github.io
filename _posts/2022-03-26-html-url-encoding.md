@@ -35,7 +35,7 @@ URL(Uniform Resource Locator)은 웹상의 문서(또는 기타 데이터)를 �
 
 | scheme | 줄임말 | 사용처 |
 | http | HyperText Transfer Protocol | 일반적인 웹 페이지. 암호화되어 있지 않습니다. |
-| https | Secure HyperText Transfer Protocol | 안전한 웹 페이지. 암호화되어 있습다. |
+| https | Secure HyperText Transfer Protocol | 안전한 웹 페이지. 암호화되어 있습니다. |
 | ftp | File Transfer Protocol | 파일 다운로드 또는 업로드 |
 | file |  | 컴퓨터에 있는 파일 |
 
