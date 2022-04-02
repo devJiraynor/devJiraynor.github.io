@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 11. 산술 (Arithmetic)
+title: JavaScript 11. 산술 연산자 (Arithmetic)
 subtitle: 산술 연산자는 숫자(리터럴 또는 변수)에 대해 산술을 수행합니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
@@ -8,7 +8,7 @@ share-img: /assets/img/js_img.png
 tags: [javascript, basic]
 ---
 
-# 산술
+# 산술 연산자
 
 ## JavaScript 산술 연산자
 
@@ -24,7 +24,7 @@ tags: [javascript, basic]
 | ```++``` | 증가 연산자 |
 | ```--``` | 감소 연산자 |
 
-## 산술 연산자
+## 산술  연산자
 
 일반적인 산술 연산은 두 개의 숫자로 이루어집니다.
 
