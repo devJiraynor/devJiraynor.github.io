@@ -17,6 +17,10 @@ tags: [javascript, basic]
 + ### [JavaScript 07. 변수 (Variable)][js-variable]
 + ### [JavaScript 08. let][js-let]
 + ### [JavaScript 09. const][js-const]
++ ### [JavaScript 10. 연산자 (Operator)][js-operator]
++ ### [JavaScript 11. 산술 연산자 (Arithmetic)][js-arthmetic]
++ ### [JavaScript 12. 할당 연산자 (Assignment)][js-assignment]
++ ### [JavaScript 13. 데이터 타입 (Data Type)][js-data-type]
 
 
 [js-intro]: https://devjiraynor.github.io/2022-03-31-js-intro/ "js intro"
@@ -28,3 +32,7 @@ tags: [javascript, basic]
 [js-variable]: https://devjiraynor.github.io/2022-03-31-js-variable/ "js 변수"
 [js-let]: https://devjiraynor.github.io/2022-03-31-js-let/ "js let"
 [js-const]: https://devjiraynor.github.io/2022-03-31-js-comment/ "js const"
+[js-operator]: https://devjiraynor.github.io/2022-04-02-js-operator/ "js 연산자"
+[js-arthmetic]: https://devjiraynor.github.io/2022-04-02-js-arthmetic/ "js 산술 연산자"
+[js-assignment]: https://devjiraynor.github.io/2022-04-02-js-assignment/ "js 할당 연산자"
+[js-data-type]: https://devjiraynor.github.io/2022-04-02-js-data-type/ "js 데이터 타입"
