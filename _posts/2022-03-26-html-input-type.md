@@ -202,7 +202,7 @@ tags: [html5, basic]
 
 ## input type checkbox
 
-```<input type="displicate">```는 **체크박스**를 정의합니다.
+```<input type="checkbox">```는 **체크박스**를 정의합니다.
 
 이 확인란을 사용하면 사용자가 제한된 수의 선택 항목 중 0개 또는 여러 개의 옵션을 선택할 수 있습니다.
 
