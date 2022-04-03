@@ -53,12 +53,12 @@ input ```formaction``` 속성은 ```form``` 을 제출할 때 입력을 처리�
 
 ## ```formenctype``` 속성
 
-input ```formenctpe``` 속성은 제출 시 폼 데이터를 인코딩하는 방법을 지정합니다(```method="post"```인 폼의 경우에만 해당).
+input ```formenctype``` 속성은 제출 시 폼 데이터를 인코딩하는 방법을 지정합니다(```method="post"```인 폼의 경우에만 해당).
 
 {: .box-note}
 **Note:** 이 속성은 ```<form>``` 요소의 ```enctype``` 속성을 재정의합니다.
 
-```formenctpe``` 속성은 ```submit``` 및 ```image``` input type으로 작동합니다.
+```formenctype``` 속성은 ```submit``` 및 ```image``` input type으로 작동합니다.
 
 ###### 예제 3 - 2개의 송신 버튼이 있는 폼. 첫 번째는 기본 인코딩으로 폼 데이터를 전송하고 두 번째는 "multipart/form-data"로 인코딩된 폼 데이터를 전송합니다.
 
