@@ -95,7 +95,7 @@ function drag(ev) {
 
 기본적으로는 데이터/요소는 다른 요소에서 삭제할 수 없습니다. 드롭을 허용하려면 요소의 기본 처리를 방지해야 합니다.
 
-이를 수행하려면 ```ondragover``` 이벤트에 대해 ```event.proventDefault()``` 메서드를 호출합니다.
+이를 수행하려면 ```ondragover``` 이벤트에 대해 ```event.preventDefault()``` 메서드를 호출합니다.
 
 ```javascript
 event.preventDefault()
@@ -117,7 +117,7 @@ function drop(ev) {
 
 코드 설명:
 
-+ 브라우저의 기본 데이터 처리를 방지하려면 ```prevent Default()```를 호출합니다.
++ 브라우저의 기본 데이터 처리를 방지하려면 ```preventDefault()```를 호출합니다.
 + ```dataTransfer.getData()``` 메서드를 사용하여 드래그된 데이터를 가져옵니다. 이 메서드는 ```setData()``` 메서드에서 동일한 유형으로 설정된 모든 데이터를 반환합니다.
 + 드래그된 데이터는 드래그된 요소의 ID("drag1")입니다.
 + 드래그된 요소를 드롭 요소에 추가합니다.
