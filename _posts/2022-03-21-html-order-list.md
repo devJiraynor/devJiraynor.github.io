@@ -133,7 +133,7 @@ tags: [html5, basic]
 [html-audio]: https://devjiraynor.github.io/2022-03-29-html-audio/ "html 오디오"
 [html-youtube-video]: https://devjiraynor.github.io/2022-03-29-html-youtube-video/ "html 유튜브"
 [html-geoloaction]: https://devjiraynor.github.io/2022-03-30-html-geoloaction/ "html 지리 위치"
-[html-drag-drop]: https://devjiraynor.github.io/2022-03-30-html-audrag-dropdio/ "html 드래그 앤 드롭"
+[html-drag-drop]: https://devjiraynor.github.io/2022-03-30-html-drag-drop/ "html 드래그 앤 드롭"
 [html-web-storage]: https://devjiraynor.github.io/2022-03-30-html-web-storage/ "html 웹 스토리지"
 [html-web-worker]: https://devjiraynor.github.io/2022-03-29-html-web-worker/ "html 웹 "
 [html-sse]: https://devjiraynor.github.io/2022-03-30-html-sse/ "html sse"
