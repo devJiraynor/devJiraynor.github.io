@@ -9,8 +9,7 @@ tags: [html5, basic]
 ---
   
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c7uUhBTR89A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://youtu.be/c7uUhBTR89A" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 05. 단락 (Paragrap)</a>
+<a href="https://youtu.be/c7uUhBTR89A" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 05. 단락 (Paragrap) 영상 보러가기</a>
 <br>
 <br>
   
