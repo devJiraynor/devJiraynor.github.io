@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/G9MhXx4eW-k" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 33. URL 인코딩 (URL Encoding) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML URL(Uniform Resource Locators)
 
 ## URL - Uniform Resource Locators
