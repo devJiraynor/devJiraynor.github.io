@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/K4OH2QXl-Fs" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 38. 인풋 타입 (Input Types) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 인풋 타입
 
 ## HTML 인풋 타입
