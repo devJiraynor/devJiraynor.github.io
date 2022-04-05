@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/eLn3PkL4pBM" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 46. 유튜브 (YouTube Video) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 유튜브 (YouTube Video)
 
 ## 비디오 포맷에 어려움을 겪고 계십니까?
