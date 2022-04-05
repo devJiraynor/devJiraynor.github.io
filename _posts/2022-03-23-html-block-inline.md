@@ -9,8 +9,7 @@ tags: [html5, basic]
 ---
 
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9WQzEx-L_OA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://youtu.be/9WQzEx-L_OA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 17. 블록 및 인라인 요소 (Block and Inline Elements)</a>
+<a href="https://youtu.be/9WQzEx-L_OA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 17. 블록 및 인라인 요소 (Block and Inline Elements) 영상 보러가기</a>
 <br>
 <br>
 
