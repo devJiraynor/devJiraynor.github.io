@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/y5Du-ImiAOc" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 31. 이모지 (Emojis) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 이모지
 
 ## 이모지란?
