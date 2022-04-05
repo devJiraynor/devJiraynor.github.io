@@ -9,8 +9,7 @@ tags: [html5, basic]
 ---
 
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4p7hpCRtxLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://youtu.be/4p7hpCRtxLs" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 06. 스타일 (Style)</a>
+<a href="https://youtu.be/4p7hpCRtxLs" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 06. 스타일 (Style) 영상 보러가기</a>
 <br>
 <br>
 
