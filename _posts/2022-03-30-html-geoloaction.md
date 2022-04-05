@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/7s_59PR5bZg" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 47. 지리 위치 API (Geolocation API) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 지리 위치 API
 
 ## 사용자 위치 찾기
