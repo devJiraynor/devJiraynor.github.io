@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/yC16LS1KsqQ" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 43. 멀티미디어 (Multimedia) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 멀티미디어
 
 ## 멀티미디어란?
