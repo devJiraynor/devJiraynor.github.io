@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/qsrGYFRxF04" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 32. 인코딩 (Encoding) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 인코딩 (문자셋)
 
 ## ASCII에서 UTF-8로
