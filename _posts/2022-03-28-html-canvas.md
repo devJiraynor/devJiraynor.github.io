@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/9e3CNrG_h4A" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 41. 캔버스 (Canvas) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML canvas 그래픽
 
 HTML ```<canvas>``` 요소는 웹 페이지에 그래픽을 그리기 위해 사용됩니다.
