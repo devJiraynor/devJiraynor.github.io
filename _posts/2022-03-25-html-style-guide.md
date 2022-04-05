@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/9ePV9H5OEi0" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 28. 스타일 가이드 (Style Guide) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 스타일 가이드
 
 ## 문서 유형 항상 선언
