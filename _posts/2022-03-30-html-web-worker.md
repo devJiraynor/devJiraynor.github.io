@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/apl8TKlEHTM" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 50. 웹 워커 API (Web Workers API) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 웹 워커 API
 
 ## 웹 워커란?
