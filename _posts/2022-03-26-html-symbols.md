@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/4hcFGVg_FzQ" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 30. 심볼 (Symbols) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 심볼
 
 ## HTML 심볼 엔티티
