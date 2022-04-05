@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/1ZTyQPeVNFg" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 49. 웹 스토리지 API (Web Storage API) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 웹 스토리지 API
 
 ## HTML 웹 스토리지 란?
