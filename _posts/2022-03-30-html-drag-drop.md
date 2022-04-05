@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/YPJC6boacqs" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 48. 드래그 앤 드롭 API (Drag and Drop API) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML 드래그 앤 드롭 API
 
 ## 드래그 앤 드롭
