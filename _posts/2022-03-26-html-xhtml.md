@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/EN7o5g61wbA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 34. HTML vs XHTML 영상 보러가기</a>
+<br>
+<br>
+
 # HTML vs XHTML
 
 ## XHTML 이란?
