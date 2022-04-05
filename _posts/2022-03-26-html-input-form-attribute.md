@@ -8,6 +8,11 @@ share-img: /assets/img/html_img.png
 tags: [html5, basic]
 ---
 
+<br>
+<a href="https://youtu.be/v0KcMjuk4rI" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 40. input 폼 속성 (Input Form Attribute) 영상 보러가기</a>
+<br>
+<br>
+
 # HTML Input 폼 속성
 
 ## ```form``` 속성
