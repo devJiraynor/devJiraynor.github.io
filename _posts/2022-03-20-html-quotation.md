@@ -9,8 +9,7 @@ tags: [html5, basic]
 ---
 
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FscdpNx1uwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://youtu.be/FscdpNx1uwA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 08. 인용 및 인용 요소 (Quotation and Citation Elements)</a>
+<a href="https://youtu.be/FscdpNx1uwA" target="_blank">jiraynor's 하루 2시간 프로그래밍 - HTML 08. 인용 및 인용 요소 (Quotation and Citation Elements) 영상 보러가기</a>
 <br>
 <br>
 
