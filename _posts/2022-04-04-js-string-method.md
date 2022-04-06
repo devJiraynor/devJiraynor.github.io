@@ -227,3 +227,174 @@ text = "Hello".concat(" ", "World!");
 {: .box-note}
 모든 문자열 메서드는 새 문자열을 반환합니다. 원래 문자열은 수정하지 않습니다.
 
+## trim()
+
+```trim()``` 메서드는 문자열의 양쪽에서 공백을 제거합니다.
+
+###### 예제 19
+
+```javascript
+let text1 = "      Hello World!      ";
+let text2 = text1.trim();
+```
+
+## 문자열 패딩
+
+ECMAScript 2017은 문자열의 시작과 끝에 패딩을 지원하기 위해 ```padStart()```와 ```padEnd()```라는 두 가지 문자열 메서드를 추가했습니다.
+
+## padStart()
+
+```padStart()``` 메서드는 문자열을 다른 문자열로 패딩합니다.
+
+###### 예제 20
+
+```javascript
+let text = "5";
+let padded = text.padStart(4,"x");
+```
+
+###### 예제 21
+
+```javascript
+let text = "5";
+let padded = text.padStart(4,"0");
+```
+
+{: .box-note}
+```padStart()``` 메서드는 문자열 메서드입니다.<br>숫자를 패딩하려면 먼저 숫자를 문자열로 변환합니다.
+
+###### 예제 22
+
+```javascript
+let numb = 5;
+let text = numb.toString();
+let padded = text.padStart(4,"0");
+```
+
+## padStart() 지원 브라우저
+
+```padStart()```는 ECMA스크립트 2017의 기능입니다.
+
+모든 최신 브라우저에서 지원됩니다.
+
+```padStart()```는 Internet Explorer에서 지원되지 않습니다.
+
+## padEnd()
+
+```padEnd()``` 메서드는 문자열을 다른 문자열로 패딩합니다.
+
+###### 예제 23
+
+```javascript
+let text = "5";
+let padded = text.padEnd(4,"x");
+```
+
+###### 예제 24
+
+```javascript
+let text = "5";
+let padded = text.padEnd(4,"0");
+```
+
+{: .box-note}
+```padEnd()``` 메서드는 문자열 메서드입니다.<br>숫자를 패딩하려면 먼저 숫자를 문자열로 변환합니다.
+
+###### 예제 25
+
+```javascript
+let numb = 5;
+let text = numb.toString();
+let padded = text.padEnd(4,"0");
+```
+
+## padEnd() 지원 브라우저
+
+```padEnd()```는 ECMA스크립트 2017의 기능입니다.
+
+모든 최신 브라우저에서 지원됩니다.
+
+```padEnd()```는 Internet Explorer에서 지원되지 않습니다.
+
+## 문자열 문자 추출
+
+문자열 문자를 추출하는 방법에는 세 가지가 있습니다.
+
++ ```charAt(position)```
++ ```charCodeAt(position)```
++ 속성 접근 ```[]```
+
+## charAt()
+
+```charAt()``` 메서드는 문자열의 지정된 인덱스(위치)에 있는 문자를 반환합니다.
+
+###### 예제 26
+
+```javascript
+let text = "HELLO WORLD";
+let char = text.charAt(0);
+```
+
+## charCodeAt()
+
+```charCodeAt()``` 메서드는 문자열의 지정된 인덱스에 있는 문자의 유니코드를 반환합니다.
+
+메서드는 UTF-16 코드(0과 65535 사이의 정수)를 반환합니다.
+
+###### 예제 27
+
+```javascript
+let text = "HELLO WORLD";
+let char = text.charCodeAt(0);
+```
+
+## 속성 접근
+
+ECMAScript 5(2009)는 문자열에서 속성 접근 ```[]```를 허용합니다.
+
+###### 예제 28
+
+```javascript
+let text = "HELLO WORLD";
+let char = text[0];
+```
+
+속성 액세스는 **예측할 수 없습니다.**
+
++ 문자열이 배열처럼 보이지만 실제로는 그렇지 않습니다.
++ 문자가 없으면 [ ]은 정의되지 않은 문자열을 반환하고 ```charAt()```는 빈 문자열을 반환합니다.
++ 읽기 전용입니다. ```str[0] = "A"```는 오류가 발생하지 않습니다.(하지만 작동하지 않습니다!)
+
+###### 예제 29
+
+```javascript
+let text = "HELLO WORLD";
+text[0] = "A";    // 오류가 발생하지 않지만, 작동하지도 않습니다.
+```
+
+## 문자열을 배열로 변환
+
+{: .box-note}
+문자열을 배열로 작업하기위해 문자열을 배열로 변환할 수 있습니다.
+
+## split()
+
+문자열은 ```split()``` 메서드를 사용하여 배열로 변환할 수 있습니다.
+
+###### 예제 30
+
+```javascript
+text.split(",")    // , 로 나누기
+text.split(" ")    // 공백으로 나누기
+text.split("|")    // | 로 나누기
+```
+
+구분 기호를 생략하면 반환된 배열에 인덱스 ```[0]```의 전체 문자열이 포함됩니다.
+
+구분 기호가 ""인 경우 반환되는 배열은 단일 문자의 배열이 됩니다.
+
+###### 예제 31
+
+```javascript
+text.split("")
+```
