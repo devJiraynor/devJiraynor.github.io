@@ -139,3 +139,91 @@ let newText = text.replace("Microsoft", "Windows");
 
 {: .box-note}
 ```replace()``` 메서드는 호출된 문자열을 변경하지 않습니다.<br>```replace()``` 메서드는 새 문자열을 반환합니다.<br>```replace()``` 메서드는 첫 번째 일치 항목만 바꿉니다.<br>모든 일치 항목을 바꾸려면 /g 플래그 집합과 함께 정규식을 사용하십시오.
+
+기본적으로 ```replace()``` 메서드는 **첫 번째 일치 항목**만 대체합니다.
+
+###### 예제 11
+
+```javascript
+let text = "Please visit Microsoft and Microsoft!";
+let newText = text.replace("Microsoft", "Windows");
+```
+
+기본적으로 ```replace()``` 메서드는 대소문자를 구분합니다. MICROSOFT는 사용할 수 없습니다.
+
+###### 예제 12
+
+```javascript
+let text = "Please visit Microsoft!";
+let newText = text.replace("MICROSOFT", "Windows");
+```
+
+대/소문자를 구분하지 않으려면 정규식을 ```/i``` 플래그(구체적이지 않음)와 함께 사용합니다.
+
+###### 예제 13
+
+```javscript
+let text = "Please visit Microsoft!";
+let newText = text.replace(/MICROSOFT/i, "Windows");
+```
+
+{: .box-note}
+정규식은 따옴표 없이 작성됩니다.
+
+모든 일치 항목을 바꾸려면 정규식을 /g 플래그(글로벌 일치)와 함께 사용합니다.
+
+###### 예제 14
+
+```javascript
+let text = "Please visit Microsoft and Microsoft!";
+let newText = text.replace(/Microsoft/g, "Windows");
+```
+
+## 대/소문자로 변환
+
+```toUpperCase()```을 사용하면 문자열이 대문자로 변환됩니다.
+
+```toLowerCase()```을 사용하면 문자열이 소문자로 변환됩니다.
+
+## toUpperCase()
+
+###### 예제 15
+
+```javascript
+let text1 = "Hello World!";
+let text2 = text1.toUpperCase();
+```
+
+## toLowerCase()
+
+###### 예제 16
+
+```javascript
+let text1 = "Hello World!";      
+let text2 = text1.toLowerCase();
+```
+
+## concat()
+
+```concat()```은 두 개 이상의 문자열을 결합합니다.
+
+###### 예제 17
+
+```javascript
+let text1 = "Hello";
+let text2 = "World";
+let text3 = text1.concat(" ", text2);
+```
+
+더하기 연산자 대신 ```concat()``` 메서드를 사용할 수 있습니다. 아래 두 구문은 같은 역할을 합니다.
+
+###### 예제 18
+
+```javascript
+text = "Hello" + " " + "World!";
+text = "Hello".concat(" ", "World!");
+```
+
+{: .box-note}
+모든 문자열 메서드는 새 문자열을 반환합니다. 원래 문자열은 수정하지 않습니다.
+
