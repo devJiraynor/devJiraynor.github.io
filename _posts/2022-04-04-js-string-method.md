@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 18. 문자열 메서드 (String )
+title: JavaScript 18. 문자열 메서드 (String Method)
 subtitle: 문자열 메서드는 문자열을 사용하는 데 도움이 됩니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
