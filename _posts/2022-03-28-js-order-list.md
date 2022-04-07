@@ -21,6 +21,13 @@ tags: [javascript, basic]
 + ### [JavaScript 11. 산술 연산자 (Arithmetic)][js-arthmetic]
 + ### [JavaScript 12. 할당 연산자 (Assignment)][js-assignment]
 + ### [JavaScript 13. 데이터 타입 (Data Type)][js-data-type]
++ ### [JavaScript 14. 함수 (Function)][js-function]
++ ### [JavaScript 15. 객체 (Object)][js-object]
++ ### [JavaScript 16. 이벤트 (Event)][js-evnet]
++ ### [JavaScript 17. 문자열 (String)][js-string]
++ ### [JavaScript 18. 문자열 메서드 (String Method)][js-string-method]
++ ### [JavaScript 19. 문자열 검색 (String Search)][js-string-search]
++ ### [JavaScript 20. 문자열 템플릿 (String Template)][js-string-template]
 
 
 [js-intro]: https://devjiraynor.github.io/2022-03-31-js-intro/ "js intro"
@@ -36,3 +43,10 @@ tags: [javascript, basic]
 [js-arthmetic]: https://devjiraynor.github.io/2022-04-02-js-arthmetic/ "js 산술 연산자"
 [js-assignment]: https://devjiraynor.github.io/2022-04-02-js-assignment/ "js 할당 연산자"
 [js-data-type]: https://devjiraynor.github.io/2022-04-02-js-data-type/ "js 데이터 타입"
+[js-function]: https://devjiraynor.github.io/2022-04-03-js-function/ "js 함수"
+[js-object]: https://devjiraynor.github.io/2022-04-03-js-object/ "js 객체"
+[js-event]: https://devjiraynor.github.io/2022-04-03-js-event/ "js 이벤트"
+[js-string]: https://devjiraynor.github.io/2022-04-04-js-string/ "js 문자열"
+[js-string-method]: https://devjiraynor.github.io/2022-04-04-js-string-method/ "js 문자열 메서드"
+[js-string-search]: https://devjiraynor.github.io/2022-04-04-js-string-search/ "js 문자열 검색"
+[js-string-template]: https://devjiraynor.github.io/2022-04-04-js-string-template/ "js 문자열 템플릿"
