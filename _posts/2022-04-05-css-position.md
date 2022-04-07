@@ -64,3 +64,66 @@ div.relative {
 고정 요소는 페이지에 일반적으로 위치했을 때 공백이 생기지 않습니다.
 
 페이지의 오른쪽 아래 모서리에 있는 고정 요소를 주목하십시오. 사용되는 CSS는 다음과 같습니다.
+
+###### 예제 3
+
+```css
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+```
+
+## position: absolute;
+
+```position: absolute;```가 있는 요소는 (고정된 것과 같이 뷰포트를 기준으로 배치되는 대신) 가장 가까운 위치에 있는 상위 요소에 대해 상대적으로 배치됩니다.
+
+그러나 절대 위치 지정 요소가 위치 지정 상위 요소가 없는 경우, 문서 본문을 사용하고 페이지 스크롤과 함께 이동합니다.
+
+**Note:** 절대 위치 요소는 일반 흐름에서 제거되며 요소가 겹칠 수 있습니다.
+
+###### 예제 4
+
+```css
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+```
+
+## position: sticky;
+
+```position: sticky;```가 있는 요소는 사용자의 스크롤 위치를 기준으로 배치됩니다.
+
+고정 요소는 스크롤 위치에 따라 ```relative``` 요소와 ```fixed``` 요소를 전환합니다. 뷰포트에서 지정된 오프셋 위치가 충족될 때까지 상대적인 위치에 배치됩니다. 그런 다음 제자리에 고정됩니다(위치:고정됨).
+
+{: .box-note}
+**Note:** Internet Explorer는 고정 위치를 지원하지 않습니다. Safari에는 -webkit- 접두사가 필요합니다(아래 예제 참조). 또한 고정 위치가 작동하려면 ```top```, ```right```, ```bottom``` 또는 ```left``` 중 하나 이상을 지정해야 합니다.
+
+이 예에서 스틱 요소는 스크롤 위치에 도달하면 페이지 맨 위(```top: 0```)에 부착됩니다.
+
+###### 예제 5
+
+```css
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+```
