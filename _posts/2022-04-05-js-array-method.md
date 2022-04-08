@@ -138,3 +138,147 @@ fruits[fruits.length] = "Kiwi";
 {: .box-danger}
 배열 요소는 JavaScript 연산자 ```delete```를 사용하여 삭제할 수 있습니다.<br>```delete```를 사용하면 배열에 ```undefined``` 구멍이 남습니다.<br>대신 pop() 또는 shift()를 사용합니다.
 
+###### 예제 11
+
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+delete fruits[0];
+```
+
+## 배열 병합(연결)
+
+```concat()``` 메서드는 기존 배열을 병합(연결)하여 새 배열을 생성합니다.
+
+###### 예제 12
+
+```javascript
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+
+const myChildren = myGirls.concat(myBoys);
+```
+
+{: .box-note}
+```concat()``` 메서드는 기존 배열을 변경하지 않습니다. 항상 새 배열을 반환합니다.
+
+```concat()``` 메서드는 임의의 수의 배열 인수를 사용할 수 있습니다.
+
+###### 예제 13
+
+```javascript
+const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const arr3 = ["Robin", "Morgan"];
+const myChildren = arr1.concat(arr2, arr3);
+```
+
+```concat()``` 메서드는 문자열을 인수로 사용할 수도 있습니다.
+
+###### 예제 14
+
+```javascript
+const arr1 = ["Emil", "Tobias", "Linus"];
+const myChildren = arr1.concat("Peter"); 
+```
+
+## 스플라이싱 및 슬라이싱 배열
+
+```splice()``` 메서드는 배열에 새 항목을 추가합니다.
+
+```slice()``` 메서드는 배열의 일부를 잘라냅니다.
+
+## 배열 splice()
+
+```splice()``` 메서드는 배열에 새 항목을 추가하는 데 사용할 수 있습니다.
+
+###### 예제 15
+
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+```
+
+첫 번째 매개 변수(2)는 새 요소를 **추가**할 **위치**를 정의합니다(분할).
+
+두 번째 매개 변수(0)는 **제거**할 **요소 수**를 정의합니다.
+
+나머지 매개변수("Lemon", "Kiwi")는 **추가**할 새 요소를 정의합니다.
+
+```splice()``` 메서드는 삭제된 항목이 있는 배열을 반환합니다.
+
+###### 예제 16
+
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 2, "Lemon", "Kiwi");
+```
+
+## 배열 slice()
+
+```slice()``` 메서드는 배열의 일부를 새 배열로 잘라냅니다.
+
+이 예에서는 배열 요소 1("Orange")부터 시작하는 배열의 일부를 잘라냅니다.
+
+###### 예제 17
+
+```javascript
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(1);
+```
+
+{: .box-note}
+```slice()``` 메서드는 새 배열을 만듭니다.<br>```slice()``` 메서드는 소스 배열에서 요소를 제거하지 않습니다.
+
+이 예에서는 배열 요소 3("Apple")에서 시작하는 배열의 일부를 잘라냅니다.
+
+###### 예제 18
+
+```javascript
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(3);
+```
+
+```slice()``` 메서드는 ```slice(1, 3)```와 같은 두 개의 인수를 사용할 수 있습니다.
+
+그런 다음 메소드는 시작 인수에서 요소를 선택하고 끝 인수까지는 포함하지 않습니다.
+
+###### 예제 19
+
+```javascript
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(1, 3);
+```
+
+첫 번째 예제와 같이 end 인수가 생략된 경우 ```slice()``` 메서드는 나머지 배열을 잘라냅니다.
+
+###### 예제 20
+
+```javascript
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(2);
+```
+
+## 자동 toString()
+
+JavaScript는 원시 값이 필요할 때 배열을 쉼표로 구분된 문자열로 자동 변환합니다.
+
+이것은 항상 배열을 출력하려고 할 때 해당됩니다.
+
+이 두 가지 예에서는 동일한 결과가 나타납니다.
+
+###### 예제 21
+
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+```
+
+###### 예제 22
+
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+```
+
+{: .box-note}
+모든 JavaScript 개체에는 toString() 메서드가 있습니다.
