@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 26. 배열 반복 (Array Sort)
+title: JavaScript 26. 배열 반복 (Array Iteration)
 subtitle: 배열 반복 메서드는 모든 배열 항목에서 작동합니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
