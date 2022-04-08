@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 24. 배열 정렬 (Array Sort)
+title: JavaScript 25. 배열 정렬 (Array Sort)
 subtitle: 배열을 정렬하는 방법에 대해 알아봅니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
