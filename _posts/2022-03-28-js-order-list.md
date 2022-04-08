@@ -28,6 +28,13 @@ tags: [javascript, basic]
 + ### [JavaScript 18. 문자열 메서드 (String Method)][js-string-method]
 + ### [JavaScript 19. 문자열 검색 (String Search)][js-string-search]
 + ### [JavaScript 20. 문자열 템플릿 (String Template)][js-string-template]
++ ### [JavaScript 21. 숫자 (Number)][js-number]
++ ### [JavaScript 22. 숫자 메서드 (Number Method)][js-number-method]
++ ### [JavaScript 23. 배열 (Array)][js-array]
++ ### [JavaScript 24. 배열 메서드 (Array Method)][js-array-method]
++ ### [JavaScript 25. 배열 정렬 (Array Sort)][js-array-sort]
++ ### [JavaScript 26. 배열 반복 (Array Iteration)][js-array-iteration]
++ ### [JavaScript 27. 배열 Const (Array Const)][js-array-const]
 
 
 [js-intro]: https://devjiraynor.github.io/2022-03-31-js-intro/ "js intro"
@@ -50,3 +57,10 @@ tags: [javascript, basic]
 [js-string-method]: https://devjiraynor.github.io/2022-04-04-js-string-method/ "js 문자열 메서드"
 [js-string-search]: https://devjiraynor.github.io/2022-04-04-js-string-search/ "js 문자열 검색"
 [js-string-template]: https://devjiraynor.github.io/2022-04-04-js-string-template/ "js 문자열 템플릿"
+[js-number]: https://devjiraynor.github.io/2022-04-05-js-number/ "js 숫자"
+[js-number-method]: https://devjiraynor.github.io/2022-04-05-js-number-method/ "js 숫자 메서드"
+[js-array]: https://devjiraynor.github.io/2022-04-05-js-array/ "js 배열"
+[js-array-method]: https://devjiraynor.github.io/2022-04-05-js-array-method/ "js 배열 메서드"
+[js-array-sort]: https://devjiraynor.github.io/2022-04-05-js-array-sort/ "js 배열 정렬"
+[js-array-iteration]: https://devjiraynor.github.io/2022-04-05-js-array-iteration/ "js 배열 반복"
+[js-array-const]: https://devjiraynor.github.io/2022-04-05-js-array-const/ "js 배열 const"
