@@ -8,7 +8,7 @@ share-img: /assets/img/css_img.png
 tags: [css3, basic]
 ---
 
-# CSS 유사 클래스
+# CSS 유사 클래스 (Pseudo-classes)
 
 ## 유사 클래스란?
 
