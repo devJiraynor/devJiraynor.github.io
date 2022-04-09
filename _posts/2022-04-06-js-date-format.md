@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 28. Data 형식 (Date Format)
+title: JavaScript 29. Date 형식 (Date Format)
 subtitle: JavaScript의 Date Format에 대해서 알아봅니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
