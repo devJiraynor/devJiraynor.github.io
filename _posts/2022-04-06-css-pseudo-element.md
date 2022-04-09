@@ -95,3 +95,61 @@ p::first-line {
   font-variant: small-caps;
 }
 ```
+
+## ```::before``` 유사 요소
+
+```::before``` 유사 요소를 사용하여 요소의 내용 앞에 일부 내용을 삽입하는 데 사용할 수 있습니다.
+
+다음 예제에서는 각 ```<h1>``` 요소의 내용 앞에 이미지를 삽입합니다.
+
+###### 예제 4
+
+```css
+h1::before {
+  content: url(smiley.gif);
+}
+```
+
+## ```::after``` 유사 요소
+
+```::after``` 유사 요소는 요소의 내용 뒤에 일부 내용을 삽입하는 데 사용할 수 있습니다.
+
+다음 예제에서는 각 ```<h1>``` 요소의 내용 뒤에 이미지를 삽입합니다.
+
+###### 예제 5
+
+```css
+h1::after {
+  content: url(smiley.gif);
+}
+```
+
+## ```::marker``` 유사 요소
+
+```::marker``` 유사 요소는 목록 항목의 마커를 선택합니다.
+
+다음 예제에서는 목록 항목의 마커를 스타일링합니다.
+
+###### 예제 6
+
+```css
+::marker {
+  color: red;
+  font-size: 23px;
+}
+```
+
+## ```::selection``` 유사 요소
+
+```::selection``` 유사 요소는 사용자가 선택한 요소의 부분과 일치합니다.
+
+```color```, ```background```, ```cursor```, ```outline```의 다음 CSS 속성을 선택할 수 있습니다.
+
+###### 예제 7
+
+```css
+::selection {
+  color: red;
+  background: yellow;
+}
+```
