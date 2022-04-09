@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 29. Date Get 메서드 (Date Get Method)
+title: JavaScript 30. Date Get 메서드 (Date Get Method)
 subtitle: date get 메서드는 날짜 객체에서 정보를 가져오는 데 사용할 수 있습니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
