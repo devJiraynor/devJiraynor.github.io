@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS 26. Inline-Block
-subtitle: display inline과 비교했을 때, display: inline-block은 요소의 너비와 높이를 설정할 수 있다는 점이 가장 큰 차이점입니다.
+subtitle: display inline과 비교했을 때, display inline-block은 요소의 너비와 높이를 설정할 수 있다는 점이 가장 큰 차이점입니다.
 cover-img: /assets/img/css_img.png
 thumbnail-img: /assets/img/css_thumb.png
 share-img: /assets/img/css_img.png
