@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 30. Date Set 메서드 (Date Set Method)
+title: JavaScript 31. Date Set 메서드 (Date Set Method)
 subtitle: date set 메서드는 날짜 객체에 정보를 설정하는 데 사용할 수 있습니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
