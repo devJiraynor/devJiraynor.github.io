@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 29. Data Get 메서드 (Date Get Method)
+title: JavaScript 29. Date Get 메서드 (Date Get Method)
 subtitle: date get 메서드는 날짜 객체에서 정보를 가져오는 데 사용할 수 있습니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
@@ -8,7 +8,7 @@ share-img: /assets/img/js_img.png
 tags: [javascript, basic]
 ---
 
-# JavaScript Data Get 메서드
+# JavaScript Date Get 메서드
 
 | **메서드** | **설명** |
 | ```getFullYear()``` | **연도**를 4자리 숫자로 가져오기(yyyy) |
