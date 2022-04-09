@@ -35,6 +35,10 @@ tags: [javascript, basic]
 + ### [JavaScript 25. 배열 정렬 (Array Sort)][js-array-sort]
 + ### [JavaScript 26. 배열 반복 (Array Iteration)][js-array-iteration]
 + ### [JavaScript 27. 배열 Const (Array Const)][js-array-const]
++ ### [JavaScript 28. Date 객체 (Date)][js-date]
++ ### [JavaScript 29. Date 형식 (Date Format)][js-date-format]
++ ### [JavaScript 30. Date Get 메서드 (Date Get Method)][js-date-get]
++ ### [JavaScript 31. Date Set 메서드 (Date Set Method)][js-date-set]
 
 
 [js-intro]: https://devjiraynor.github.io/2022-03-31-js-intro/ "js intro"
@@ -64,3 +68,7 @@ tags: [javascript, basic]
 [js-array-sort]: https://devjiraynor.github.io/2022-04-05-js-array-sort/ "js 배열 정렬"
 [js-array-iteration]: https://devjiraynor.github.io/2022-04-05-js-array-iteration/ "js 배열 반복"
 [js-array-const]: https://devjiraynor.github.io/2022-04-05-js-array-const/ "js 배열 const"
+[js-date]: https://devjiraynor.github.io/2022-04-06-js-date/ "js Date"
+[js-date-format]: https://devjiraynor.github.io/2022-04-06-js-date-format/ "js Date 형식"
+[js-date-get]: https://devjiraynor.github.io/2022-04-06-js-date-get/ "js Date get 메서드"
+[js-date-set]: https://devjiraynor.github.io/2022-04-06-js-date-set/ "js Date set 메서드"
