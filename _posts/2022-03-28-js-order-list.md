@@ -39,6 +39,14 @@ tags: [javascript, basic]
 + ### [JavaScript 29. Date 형식 (Date Format)][js-date-format]
 + ### [JavaScript 30. Date Get 메서드 (Date Get Method)][js-date-get]
 + ### [JavaScript 31. Date Set 메서드 (Date Set Method)][js-date-set]
++ ### [JavaScript 32. Math 객체 (Math Object)][js-math]
++ ### [JavaScript 33. Random][js-random]
++ ### [JavaScript 34. 불리언 (Booleans)][js-boolean]
++ ### [JavaScript 35. 비교 및 논리 연산자 (Comparison and Logical Operators)][js-if]
++ ### [JavaScript 36. if, else, else if][js-date]
++ ### [JavaScript 37. switch 구문][js-switch]
++ ### [JavaScript 38. for 반복문 (For Loop)][js-loop-for]
++ ### [JavaScript 39. for in 반복문 (For In Loop)][js-loop-for-in]
 
 
 [js-intro]: https://devjiraynor.github.io/2022-03-31-js-intro/ "js intro"
@@ -72,3 +80,11 @@ tags: [javascript, basic]
 [js-date-format]: https://devjiraynor.github.io/2022-04-06-js-date-format/ "js Date 형식"
 [js-date-get]: https://devjiraynor.github.io/2022-04-06-js-date-get/ "js Date get 메서드"
 [js-date-set]: https://devjiraynor.github.io/2022-04-06-js-date-set/ "js Date set 메서드"
+[js-math]: https://devjiraynor.github.io/2022-04-07-js-math/ "js Math"
+[js-random]: https://devjiraynor.github.io/2022-04-07-js-random/ "js Random"
+[js-boolean]: https://devjiraynor.github.io/2022-04-07-js-boolean/ "js boolean"
+[js-comparison-logical]: https://devjiraynor.github.io/2022-04-07-js-comparison-logical/ "js 비교 및 논리 연산자"
+[js-if]: https://devjiraynor.github.io/2022-04-07-js-if/ "js if"
+[js-switch]: https://devjiraynor.github.io/2022-04-07-js-switch/ "js switch"
+[js-loop-for]: https://devjiraynor.github.io/2022-04-07-js-loop-for/ "js for 반복문"
+[js-loop-for-in]: https://devjiraynor.github.io/2022-04-07-js-loop-for-in/ "js for in "
