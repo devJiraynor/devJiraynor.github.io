@@ -65,3 +65,41 @@ for (let x in numbers) {
 
 {: .box-note}
 인덱스 순서가 중요한 경우 ```for in```을 사용하지 마십시오.<br>인덱스 순서는 구현에 따라 다르며 배열 값에 원하는 순서대로 액세스하지 못할 수 있습니다.<br>순서가 중요한 경우에는 ```for``` 반복문, ```for of``` 반복문 또는 ```Array.forEach()```를 사용하는 것이 좋습니다.
+
+## Array.forEach()
+
+```forEach()``` 메서드는 각 배열 요소에 대해 함수(콜백 함수)를 한 번 호출합니다.
+
+###### 예제 3
+
+```javascript
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array) {
+  txt += value;
+}
+```
+
+함수는 세 개의 인수를 사용합니다.
+
++ 요소 값
++ 요소 인덱스
++ 배열 자체
+
+위의 예에서는 값 매개 변수만 사용합니다. 다음과 같이 다시 쓸 수 있습니다.
+
+###### 예제 4
+
+```javascript
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value) {
+  txt += value;
+}
+```
