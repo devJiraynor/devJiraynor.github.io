@@ -42,3 +42,61 @@ img:hover {
 
 ```opacity``` 속성을 사용하여 요소의 배경에 투명도를 추가하면 모든 하위 요소가 동일한 투명도를 상속합니다. 이렇게 하면 완전히 투명한 요소 내부의 텍스트를 읽기 어렵게 만들 수 있습니다.
 
+###### 예제 3
+
+```css
+div {
+  opacity: 0.3;
+}
+```
+
+## RGBA를 사용한 투명도
+
+하위 요소에 불투명도를 적용하지 않으려면 RGBA 색상 값을 사용합니다. 다음 예제에서는 텍스트가 아닌 배경 색에 대한 불투명도를 설정합니다.
+
+###### 예제 4
+
+```css
+div {
+  background: rgba(76, 175, 80, 0.3)
+}
+```
+
+## 투명 박스의 텍스트
+
+###### 예제 4
+
+```html
+<html>
+<head>
+<style>
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
+</body>
+</html>
+```
