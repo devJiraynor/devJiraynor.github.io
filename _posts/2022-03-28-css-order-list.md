@@ -37,6 +37,14 @@ tags: [css3, basic]
 + ### [CSS 28. 콤비네이터 (Combinators)][css-combinator]
 + ### [CSS 29. 유사 클래스 (Pseudo-classes)][css-pseudo-class]
 + ### [CSS 30. 유사 요소 (Pseudo-elements)][css-pseudo-element]
++ ### [CSS 31. 불투명도/투명도 (Opacity / Transparency)][css-opacity-transparency]
++ ### [CSS 32. 네비게이션 바 (Navigation Bar)][css-navigation]
++ ### [CSS 33. 드롭다운 (Dropdowns)][css-dropdown]
++ ### [CSS 34. 이미지 갤러리 (Image Gallery)][css-image-gallery]
++ ### [CSS 35. 이미지 스프라이트 (Image Sprites)][css-image-sprite]
++ ### [CSS 36. 속성 셀렉터 (Attribute Selectors)][css-attribute-selector]
++ ### [CSS 37. 폼 (Forms)][css-form]
++ ### [CSS 38. 카운터 (Counters)][css-counter]
 
 
 [css-intro]: https://devjiraynor.github.io/2022-03-31-css-intro/ "css intro"
@@ -69,4 +77,13 @@ tags: [css3, basic]
 [css-combinator]: https://devjiraynor.github.io/2022-04-06-css-combinator/ "css 콤비네이터"
 [css-pseudo-class]: https://devjiraynor.github.io/2022-04-06-css-pseudo-class/ "css Pseudo-classes"
 [css-pseudo-element]: https://devjiraynor.github.io/2022-04-06-css-pseudo-element/ "css Pseudo-elements"
+[css-opacity-transparency]: https://devjiraynor.github.io/2022-04-07-css-opacity-transparency/ "css 불투명도/투명도"
+[css-navigation]: https://devjiraynor.github.io/2022-04-07-css-navigation/ "css 네비게이션 바"
+[css-dropdown]: https://devjiraynor.github.io/2022-04-07-css-dropdown/ "css 드롭다운"
+[css-image-gallery]: https://devjiraynor.github.io/2022-04-07-css-image-gallery/ "css 이미지 갤러리"
+[css-image-sprite]: https://devjiraynor.github.io/2022-04-07-css-image-sprite/ "css 이미지 스프라이트"
+[css-attribute-selector]: https://devjiraynor.github.io/2022-04-07-css-attribute-selector/ "css 속성 셀렉터"
+[css-form]: https://devjiraynor.github.io/2022-04-07-css-form/ "css 폼"
+[css-counter]: https://devjiraynor.github.io/2022-04-07-css-counter/ "css 카운터"
+
 
