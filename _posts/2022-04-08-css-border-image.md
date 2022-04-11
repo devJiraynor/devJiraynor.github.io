@@ -46,3 +46,30 @@ CSS ```border-image``` 속성을 사용하면 요소 주위의 일반 테두리 
 
 {: .box-note}
 **Tip:** ```border-image``` 속성은 실제로 ```border-image-source```, ```border-image-slice```, ```border-image-width```, ```border-image-outset```, ```border-image-repeat``` 속성에 대한 간략한 속성입니다.
+
+## 테두리 이미지 - 다른 slice 값
+
+slice 값이 다르면 테두리 모양이 완전히 변경됩니다.
+
+###### 예제 3
+
+```css
+#borderimg1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 50 round;
+}
+
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 20% round;
+}
+
+#borderimg3 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30% round;
+}
+```
+
