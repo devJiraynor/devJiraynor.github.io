@@ -47,6 +47,14 @@ tags: [javascript, basic]
 + ### [JavaScript 37. switch 구문][js-switch]
 + ### [JavaScript 38. for 반복문 (For Loop)][js-loop-for]
 + ### [JavaScript 39. for in 반복문 (For In Loop)][js-loop-for-in]
++ ### [JavaScript 40. for of 반복문 (For Of Loop)][js-loop-for-of]
++ ### [JavaScript 41. while 반복문 (While Loop)][js-while-loop]
++ ### [JavaScript 42. Break문과 Continue문][js-break-continue]
++ ### [JavaScript 43. 반복 가능 객체 (Iterables)][js-iterable]
++ ### [JavaScript 44. 집합 (Set)][js-set]
++ ### [JavaScript 45. 맵 (Map)][js-map]
++ ### [JavaScript 46. typeof 연산자][js-typeof]
++ ### [JavaScript 47. 형 변환 (Type Conversion)][js-type-conversion]
 
 
 [js-intro]: https://devjiraynor.github.io/2022-03-31-js-intro/ "js intro"
@@ -87,4 +95,12 @@ tags: [javascript, basic]
 [js-if]: https://devjiraynor.github.io/2022-04-07-js-if/ "js if"
 [js-switch]: https://devjiraynor.github.io/2022-04-07-js-switch/ "js switch"
 [js-loop-for]: https://devjiraynor.github.io/2022-04-07-js-loop-for/ "js for 반복문"
-[js-loop-for-in]: https://devjiraynor.github.io/2022-04-07-js-loop-for-in/ "js for in "
+[js-loop-for-in]: https://devjiraynor.github.io/2022-04-07-js-loop-for-in/ "js for in"
+[js-loop-for-of]: https://devjiraynor.github.io/2022-04-08-js-loop-for-of/ "js for of"
+[js-while-loop]: https://devjiraynor.github.io/2022-04-08-js-while-loop/ "js while"
+[js-break-continue]: https://devjiraynor.github.io/2022-04-08-js-break-continue/ "js break continue"
+[js-iterable]: https://devjiraynor.github.io/2022-04-08-js-iterable/ "js iterable"
+[js-set]: https://devjiraynor.github.io/2022-04-08-js-set/ "js set"
+[js-map]: https://devjiraynor.github.io/2022-04-08-js-map/ "js map"
+[js-typeof]: https://devjiraynor.github.io/2022-04-08-js-typeof/ "js typeof"
+[js-type-conversion]: https://devjiraynor.github.io/2022-04-08-js-type-conversion/ "js 형 변환"
