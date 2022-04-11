@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript 43. 반복 가능 객체 (Iterables)
-subtitle: Iterables는 반복 가능한 개체(예: 배열)입니다. Iterables는 간단하고 효율적인 코드로 접근할 수 있습니다. Iterables는 for..of 반복문으로 반복할 수 있습니다
+subtitle: Iterables는 반복 가능한 객체입니다. Iterables는 간단하고 효율적인 코드로 접근할 수 있습니다. Iterables는 for..of 반복문으로 반복할 수 있습니다
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
 share-img: /assets/img/js_img.png
