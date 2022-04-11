@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 46. 형 변환 (Type Conversion)
+title: JavaScript 47. 형 변환 (Type Conversion)
 subtitle: JavaScript 형 변환에 대해 알아봅니다.
 cover-img: /assets/img/js_img.png
 thumbnail-img: /assets/img/js_thumb.png
