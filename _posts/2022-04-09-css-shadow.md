@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS 49. 그림자 효과 (Shadow Effects)
+title: CSS 50. 그림자 효과 (Shadow Effects)
 subtitle: CSS 그림자 효과 사용법에 대해 알아봅니다.
 cover-img: /assets/img/css_img.png
 thumbnail-img: /assets/img/css_thumb.png
